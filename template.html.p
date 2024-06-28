@@ -37,9 +37,8 @@
 	<link rel="stylesheet" href="fonts.css"> 
 	<script src="https://cdn.tailwindcss.com"></script>
   </head>
-	<body class="flex flex-col justify-between h-screen bg-[◊|raisin-black|] leading-relaxed text-zinc-300 antialiased font-fira-sans selection:bg-[◊|jordy-light|] selection:text-[◊|raisin-black|]">
-		◊(->html `(div ([class "mx-auto h-full max-w-screen-xl px-6 py-12
-										md:px-12 md:py-20 lg:px-24 lg:py-0"])
+	<body class="antialiased font-fira-sans selection:bg-[◊|jordy-light|] selection:text-[◊|raisin-black|]">
+		◊(->html `(div ([class ""])
 										,doc))
 		<footer class="p-6 sm:p-8 md:p-12">
 			<div class="flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8 text-sm text-zinc-400">
