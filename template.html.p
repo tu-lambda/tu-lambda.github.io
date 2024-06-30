@@ -37,7 +37,7 @@
 	<link rel="stylesheet" href="fonts.css"> 
 	<script src="https://cdn.tailwindcss.com"></script>
   </head>
-	<body class="antialiased font-fira-sans selection:bg-[◊|jordy-light|] selection:text-[◊|raisin-black|]">
+	<body class="antialiased scroll-smooth font-fira-sans selection:bg-[◊|jordy-light|] selection:text-[◊|raisin-black|]">
 		◊(->html `(div ([class ""])
 										,doc))
 		<footer class="p-6 sm:p-8 md:p-12">

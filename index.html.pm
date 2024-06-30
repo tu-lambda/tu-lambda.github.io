@@ -59,7 +59,7 @@
 )
 
 ◊`(div ([class "bg-white"])
-    (div ([id "meetup"] [class "min-h-screen text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"])
+    (div ([id "meetup"] [class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"])
         ,(heading "About")
         (p ([class "my-4 sm:text-lg leading-relaxed"])
             "Hi 👋")
