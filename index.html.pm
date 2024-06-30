@@ -2,8 +2,12 @@
 
 ◊(require string-interpolation)
 
-◊`(div ([class ,"bg-[@{raisin-black}]"])
-    (div ([class ,"flex flex-col justify-between mx-auto min-h-screen max-w-screen-xl px-6 pt-12 md:px-12 md:pt-20 lg:px-24 text-zinc-300"])
+◊`(div ([class ,"flex bg-[@{raisin-black}]"])
+    (div ([class "hidden lg:flex flex-col shrink-0 justify-around ml-12"])
+        (img ([src "assets/logos/nix.png"] [class "aspect-auto w-24"]))
+        (img ([src "assets/logos/ferris.svg"] [class "aspect-auto w-24"]))
+    )
+    (div ([class ,"flex flex-col justify-between mx-auto min-h-screen max-w-screen-xl px-4 pt-12 md:px-8 md:pt-20 lg:px-16 text-zinc-300"])
         (div ([class "my-6"])
         (h1 ([class ,"my-4 text-4xl text-[@{jordy}] font-fira-code tracking-tighter leading-snug text-center"])
             "Coding is hard —")
@@ -31,6 +35,10 @@
             (svg ([xmlns "http://www.w3.org/2000/svg"] [fill "none"] [viewBox "0 0 24 24"] [stroke-width "1"] [stroke "currentColor"] [class "size-16"])
                 (path ([stroke-linecap "round"] [stroke-linejoin "round"] [d "m19.5 8.25-7.5 7.5-7.5-7.5"]))))
         )
+    )
+    (div ([class "hidden lg:flex flex-col shrink-0 justify-around mr-12"])
+        (img ([src "assets/logos/haskell.svg"] [class "aspect-auto w-28"]))
+        (img ([src "assets/logos/elixir.svg"] [class "aspect-auto w-24"]))
     )
 )
 
