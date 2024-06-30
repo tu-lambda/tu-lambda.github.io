@@ -13,7 +13,7 @@
 
 (define (badge topic)
   `(div ([class "mr-1.5 mb-2"])
-		(div ([class ,"flex items-center rounded-full bg-[@{celadon}]/10 px-4 py-2 text-sm font-medium leading-5 text-[@{celadon}]"]) ,topic)))
+		(div ([class ,"flex items-center rounded-full bg-[@{celadon}]/10 px-3 lg:px-4 py-1 lg:py-2 text-xs lg:text-sm font-medium leading-5 text-[@{celadon}]"]) ,topic)))
 
 ; (->badges "Haskell, Nix, Racket")
 (define (->badges topics)
