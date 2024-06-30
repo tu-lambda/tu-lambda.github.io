@@ -12,14 +12,14 @@
 (provide (all-defined-out))
 
 (define (badge topic)
-  `(li ([class "mr-1.5 mb-2"])
-		(div ([class ,"flex items-center rounded-full bg-[@{celadon}]/10 px-3 py-1 text-xs font-medium leading-5 text-[@{celadon}]"]) ,topic)))
+  `(div ([class "mr-1.5 mb-2"])
+		(div ([class ,"flex items-center rounded-full bg-[@{celadon}]/10 px-4 py-2 text-sm font-medium leading-5 text-[@{celadon}]"]) ,topic)))
 
 ; (->badges "Haskell, Nix, Racket")
 (define (->badges topics)
   (let ([top-list (map (curry string-trim #:left? #t) 
   					   (string-split topics ","))])
-    `(ul ([class "flex flex-wrap justify-center"] [aria-label "Tools/Techniques used"])
+    `(div ([class "flex flex-wrap justify-center"] [aria-label "Tools/Techniques used"])
          ,(for/splice ([topic top-list]) (badge topic)))))
 
 (define (link text url)

@@ -44,10 +44,13 @@
 			<div class="flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8 text-sm text-zinc-400">
 				<div class="flex flex-wrap gap-x-2 justify-center">
 					<p class="">
-						© 2024
+						Made with
+					</p>
+					<p class="">
+						❤️
 					</p>
 					<p class="whitespace-nowrap">
-						Functional Coders Tübingen
+						by Functional Coders Tübingen
 					</p>
 				</div>
 				◊; <div class="flex gap-4 sm:gap-6 md:gap-8">
