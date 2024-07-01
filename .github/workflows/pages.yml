@@ -46,15 +46,16 @@ jobs:
             ~/.local/share/racket
           key: ${{ runner.os }}-racket-current-${{ hashFiles('.racket-version') }}
       - run: raco pkg install --auto --skip-installed pollen string-interpolation
+      - run: mkdir output
       - run: raco pollen render
-      - run: raco pollen reset
+      - run: cp -r assets *.html *.css output
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload entire repository
-          path: '.'
+          # Upload ./output only
+          path: './output'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
