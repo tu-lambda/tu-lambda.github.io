@@ -28,7 +28,7 @@
         )
         (div ([class "my-6"])
             (h1 ([class ,"my-4 text-4xl text-[@{jordy}] font-fira-code tracking-tighter leading-snug text-center"])
-                "but it does it have to be that hard?")
+                "but does it have to be that hard?")
             (p ([class "my-2 sm:text-lg leading-relaxed text-center"])
                 "There are tools and techniques that manage complexity comparatively well.")
             (p ([class "my-2 sm:text-lg leading-relaxed text-center"])
