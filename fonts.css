@@ -1,9 +1,19 @@
 .font-fira-sans {
-    font-family: 'Fira Sans';
+	font-family: 'Fira Sans';
 }
 
 .font-fira-code {
-    font-family: 'Fira Code'
+	font-family: 'Fira Code'
+}
+
+.font-free-fat {
+	font-family: 'Free Fat';
+}
+
+@font-face {
+	font-family: 'Free Fat';
+	font-style: normal;
+	src: url(./assets/fonts/FREEFATFONT-Regular.woff2) format('woff2');
 }
 
 /* fira-sans-300 - latin_greek */
