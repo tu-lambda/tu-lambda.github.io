@@ -64,10 +64,9 @@
         (p ([class "my-4 sm:text-lg leading-relaxed"])
             "Hi 👋")
         (p ([class "my-4 sm:text-lg leading-relaxed"])
-            "We're " ,(link "Dirk" "https://www.linkedin.com/in/dirk-hüsken-414b8b101") ", " ,(link "Thomas" "https://www.linkedin.com/in/thomas-graf-253629ba") ", " ,(link "David" "https://binderdavid.github.io") " and " ,(link "Beat" "https://me.beathagenlocher.com") " and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup.")
+            "We're " ,(link "Dirk" "https://www.linkedin.com/in/dirk-hüsken-414b8b101") ", " ,(link "Thomas" "https://www.linkedin.com/in/thomas-graf-253629ba") ", " ,(link "David" "https://binderdavid.github.io") " and " ,(link "Beat" "https://me.beathagenlocher.com") " and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).")
         (p ([class "my-4 sm:text-lg leading-relaxed"])
-            "That's why we're launching " (span ([class "italic"]) "Functional Coders Tübingen") " — we want to create a space where people interested in functional programming can meet and learn from each other.
-            To achieve this, we will start off with talks, followed by food and an open exchange between the participants.")
+            "That's why we're launching " (span ([class "italic"]) "Functional Coders Tübingen") "—we want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants. At the same time, this is a relaunch of " ,(link "Tü.λ—Functional Programming Night Tübingen" "https://www.meetup.com/tu-lambda/") ".")
         (p ([class "my-4 sm:text-lg leading-relaxed"])
             "Looking forward to see you at our next meetup!")
         ,(heading "Schedule")
