@@ -82,6 +82,9 @@
             (li "Food, talking, coding, whatever")
             (li "22.00 End")
         )
+
+        (p ([class "my-4 sm:text-lg leading-relaxed"])
+            "If you want to attend the meetup, please " ,(link "tell us about it" "https://matrix.to/#/#functional-coders-tuebingen:matrix.org") " so that we can plan accordingly 😊")
         , (heading "Contact")
 
         (div ([class "mt-8"])
