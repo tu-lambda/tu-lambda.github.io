@@ -74,7 +74,7 @@
 
         ◊heading["Schedule"]
         ◊par{
-          The first event will take place at the 28.08.24 at the ◊link["itdesign office" "https://itdesign.de/"], Friedrichstraße 12.
+          The next event will take place at the 28.08.24 at the ◊link["itdesign office" "https://itdesign.de/"], Friedrichstraße 12.
         }
         ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
             ◊li{18.45 Doors open & Welcome}
