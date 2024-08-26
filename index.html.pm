@@ -66,10 +66,10 @@
           We're ◊(link "Dirk" "https://www.linkedin.com/in/dirk-hüsken-414b8b101"), ◊(link "Thomas" "https://www.linkedin.com/in/thomas-graf-253629ba"), ◊(link "David" "https://binderdavid.github.io") and ◊(link "Beat" "https://me.beathagenlocher.com") and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).
         }
         ◊par{
-          We want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants. At the same time, this is a relaunch of ◊(link "Tü.λ—Functional Programming Night Tübingen" "https://www.meetup.com/tu-lambda/").
-        }
+          We want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants.
+        } 
         ◊par{
-          Looking forward to see you at our next meetup!
+          Looking forward to see you at the next edition of ◊(link "Tü.λ—Functional Programming Night Tübingen" "https://www.meetup.com/tu-lambda/").
         }
 
         ◊heading["Schedule"]

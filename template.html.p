@@ -50,7 +50,7 @@
 						❤️
 					</p>
 					<p class="whitespace-nowrap">
-						by Functional Coders Tübingen
+						by Tü.λ
 					</p>
 				</div>
 				◊; <div class="flex gap-4 sm:gap-6 md:gap-8">
