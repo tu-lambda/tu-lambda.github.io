@@ -61,7 +61,7 @@
 ◊div[#:class "bg-white"]{
   ◊div[#:id "meetup" #:class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"]{
         ◊heading["About"]
-        ◊par{"Hi 👋"}
+        ◊par{Hi 👋}
         ◊par{
           We're ◊(link "Dirk" "https://www.linkedin.com/in/dirk-hüsken-414b8b101"), ◊(link "Thomas" "https://www.linkedin.com/in/thomas-graf-253629ba"), ◊(link "David" "https://binderdavid.github.io") and ◊(link "Beat" "https://me.beathagenlocher.com") and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).
         }
