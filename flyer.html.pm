@@ -6,8 +6,8 @@
     (div ([id "meetup"] [class "min-h-[94vh] text-zinc-700 h-full max-w-screen-xl py-20 px-20"])
         (h1 ([class ,"mb-14 text-[16rem] font-free-fat text-center leading-[0.7em]"]) "Free Pizza")
         (p ([class "my-4 text-3xl text-center leading-relaxed"])
-            "and functional programming at the") 
-        (p ([class ,"text-4xl text-center font-fira-code text-[@{jordy}] "]) "Functional Programming Meetup Tübingen")
+            "and functional programming at") 
+        (p ([class ,"text-4xl text-center font-fira-code text-[@{jordy}] "]) "Tü.λ—Functional Programming Night Tübingen")
     (div ([class "my-14 flex justify-between"])
         (a ([href "https://www.haskell.org/"]) 
             (img ([src "assets/logos/haskell.svg"] [class "aspect-auto w-28"])))
@@ -23,8 +23,6 @@
             (img ([src "assets/logos/ferris.svg"] [class "aspect-auto w-24"])))
     )
     (div ([class "my-14"])
-        ◊; ,(heading "Functional Programming Meetup Tübingen")
-        ◊; (p ([class "text-3xl text-center my-6"]) "Next Meetup")
         (p ([class "text-4xl font-fira-code text-center my-6 tracking-tight"])
             "Next Meetup 19:00, 28.08.2024 @itdesign")
         (ul ([class "ml-10 my-14 list-disc *:my-4"])    
@@ -37,11 +35,11 @@
                 )
         )
     (div ([class ""])
-        (a ([href "https://functional-coders.github.io"]
+        (a ([href "https://tu-lambda.github.io"]
                 [class ,"ml-4 inline-flex gap-4 items-center text-center hover:text-[@{jordy}] focus-visible:text-[@{jordy}] duration-300"])
                 (svg ([xmlns "http://www.w3.org/2000/svg"] [fill "none"] [viewBox "0 0 24 24"] [stroke-width "3"] [stroke "currentColor"] [class "size-8"])
                     (path ([stroke-linecap "round"] [stroke-linejoin "round"] [d "M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"]))
-                (span ([class "text-4xl text-[@{jordy}] font-fira-code tracking-tighter leading-snug"]) "https://functional-coders.github.io")))
+                (span ([class "text-4xl text-[@{jordy}] font-fira-code tracking-tighter leading-snug"]) "https://tu-lambda.github.io")))
     )
         
     )
