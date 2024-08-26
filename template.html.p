@@ -1,9 +1,9 @@
 ◊(require string-interpolation)
 
-◊(define title "Functional Coders Tübingen")
-◊(define description "What if... we just take the best parts of prgogramming and see where this leads us?")
+◊(define title "Tü.λ—Functional Programming Night Tübingen")
+◊(define description "What if... we just take the best parts of programming and see where this leads us?")
 ◊(define image-path "")
-◊(define url "https://functional-coders.github.io/")
+◊(define url "https://tu-lambda.github.io/")
 ◊(define icon-path "")
 
 <!DOCTYPE html>
