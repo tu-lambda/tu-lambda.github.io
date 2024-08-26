@@ -58,45 +58,50 @@
     )
 )
 
-◊`(div ([class "bg-white"])
-    (div ([id "meetup"] [class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"])
-        ,(heading "About")
-        (p ([class "my-4 sm:text-lg leading-relaxed"])
-            "Hi 👋")
-        (p ([class "my-4 sm:text-lg leading-relaxed"])
-            "We're " ,(link "Dirk" "https://www.linkedin.com/in/dirk-hüsken-414b8b101") ", " ,(link "Thomas" "https://www.linkedin.com/in/thomas-graf-253629ba") ", " ,(link "David" "https://binderdavid.github.io") " and " ,(link "Beat" "https://me.beathagenlocher.com") " and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).")
-        (p ([class "my-4 sm:text-lg leading-relaxed"])
-            "We want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants. At the same time, this is a relaunch of " ,(link "Tü.λ—Functional Programming Night Tübingen" "https://www.meetup.com/tu-lambda/") ".")
-        (p ([class "my-4 sm:text-lg leading-relaxed"])
-            "Looking forward to see you at our next meetup!")
-        ,(heading "Schedule")
-        (p ([class "my-4 sm:text-lg leading-relaxed"])
-            "The first event will take place at the 28.08.24 at the " (a ([href "https://itdesign.de/"]) "itdesign office") ", Friedrichstraße 12.")
-        (ul ([class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"])
-            (li "18.45 Doors open & Welcome")
-            (li "Simple development environments with Nix (Beat)")
-            (li "Short break")
-            (li "Persistent Data Structures: From Lists to Hashmaps (David)")
-            (li "Food, talking, coding, whatever")
-            (li "22.00 End")
-        )
+◊div[#:class "bg-white"]{
+  ◊div[#:id "meetup" #:class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"]{
+        ◊heading["About"]
+        ◊par{"Hi 👋"}
+        ◊par{
+          We're ◊(link "Dirk" "https://www.linkedin.com/in/dirk-hüsken-414b8b101"), ◊(link "Thomas" "https://www.linkedin.com/in/thomas-graf-253629ba"), ◊(link "David" "https://binderdavid.github.io") and ◊(link "Beat" "https://me.beathagenlocher.com") and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).
+        }
+        ◊par{
+          We want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants. At the same time, this is a relaunch of ◊(link "Tü.λ—Functional Programming Night Tübingen" "https://www.meetup.com/tu-lambda/").
+        }
+        ◊par{
+          Looking forward to see you at our next meetup!
+        }
 
-        (p ([class "my-4 sm:text-lg leading-relaxed"])
-            "If you want to attend the meetup, please " ,(link "tell us about it" "https://matrix.to/#/#functional-coders-tuebingen:matrix.org") " so that we can plan accordingly 😊")
-        , (heading "Contact")
-
-        (div ([class "mt-8"])
-            (p ([class "my-4 sm:text-lg leading-relaxed"])
-                "Do you want to keep posted about the next event or continue the discussion? Maybe you even want to contribute a talk yourself?")
-            (a ([href "https://matrix.to/#/#functional-coders-tuebingen:matrix.org"]
-                    [class ,"ml-4 inline-flex gap-4 items-center hover:text-[@{jordy}] focus-visible:text-[@{jordy}] duration-300"])
-                    (svg ([xmlns "http://www.w3.org/2000/svg"] [fill "none"] [viewBox "0 0 24 24"] [stroke-width "1"] [stroke "currentColor"] [class "size-8"])
-                        (path ([stroke-linecap "round"] [stroke-linejoin "round"] [d "M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"]))
-                    (span ([class "text-xl text-[@{jordy}] font-fira-code tracking-tighter leading-snug"]) "Join our Matrix Room")))
-        )
+        ◊heading["Schedule"]
+        ◊par{
+          The first event will take place at the 28.08.24 at the ◊link["itdesign office" "https://itdesign.de/"], Friedrichstraße 12.
+        }
+        ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
+            ◊li{18.45 Doors open & Welcome}
+            ◊li{Simple development environments with Nix (Beat)}
+            ◊li{Short break}
+            ◊li{Persistent Data Structures: From Lists to Hashmaps (David)}
+            ◊li{Food, talking, coding, whatever}
+            ◊li{22.00 End}
+        }
+        ◊par{
+          If you want to attend the meetup, please ◊(link "tell us about it" "https://www.meetup.com/tu-lambda/") so that we can plan accordingly 😊
+        }
         
-    )
-)
+        ◊heading["Contact"]
+        ◊div[#:class "mt-8"]{
+            ◊par{
+              Do you want to keep posted about the next event or continue the discussion? Maybe you even want to contribute a talk yourself?
+            }
+            ◊a[#:href "https://matrix.to/#/#functional-coders-tuebingen:matrix.org" #:class "ml-4 inline-flex gap-4 items-center hover:text-[@{jordy}] focus-visible:text-[@{jordy}] duration-300"]{
+              ◊svg[#:xmlns "http://www.w3.org/2000/svg" #:fill "none" #:viewBox "0 0 24 24" #:stroke-width "1" #:stroke "currentColor" #:class "size-8"]{
+                  ◊path[#:stroke-linecap "round" #:stroke-linejoin "round" #:d "M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"]
+              }
+              ◊span[#:class "text-xl text-[@{jordy}] font-fira-code tracking-tighter leading-snug"]{
+                Join our Matrix Room
+              }
+            }
+        }
+  }        
+}
 
-
-◊; ,(->badges "Haskell, Nix, Elixir, Erlang, Rust, Clojure, Racket, Category Theory, Lenses")

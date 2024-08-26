@@ -26,6 +26,9 @@
   `(a ([class ,"text-[@{jordy}] hover:underline decoration-2 underline-offset-2 decoration-[@{jordy}] hover:text-[@{jordy}]"] [rel "noreferrer noopener"] [target "_blank"] [href ,url])
     ,text))
 
+(define (par . body)
+  `(p ([class "my-4 sm:text-lg leading-relaxed"]) ,@body))
+
 (define (id-ify text)
   (string-replace (string-downcase text) " " "-"))
 
