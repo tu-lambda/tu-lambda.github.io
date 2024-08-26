@@ -79,8 +79,14 @@
         ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
             ◊li{18.45 Doors open & Welcome}
             ◊li{Simple development environments with Nix (Beat)}
+            ◊p[#:class "ml-10 my-2 italic text-base"]{
+              Setting up development environments is more complex than it should be. Nix makes entering development environments as easy as running nix develop, making them simple and reproducible. This talk explores what an ideal workflow could look like and walks through a project setup with Nix, outlining its benefits and deficiencies.
+            }
             ◊li{Short break}
             ◊li{Persistent Data Structures: From Lists to Hashmaps (David)}
+            ◊p[#:class "ml-10 my-2 italic text-base"]{
+              Functional programmers cannot use the same data structures and algorithms that imperative programmers are used to. Functional data structures make it easier to reason about what our code does, but have different performance characteristics. This talk will introduce some of the basic and advanced techniques we use when we implement functional data structures efficiently.
+            }
             ◊li{Food, talking, coding, whatever}
             ◊li{22.00 End}
         }
