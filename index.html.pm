@@ -69,7 +69,7 @@
           We want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants.
         } 
         ◊par{
-          Looking forward to see you at the next edition of ◊(link "Tü.λ—Functional Programming Night Tübingen" "https://www.meetup.com/tu-lambda/").
+          Looking forward to see you at the next edition of ◊(link "Tü.λ—Functional Programming Night Tübingen" "https://www.meetup.com/tu-lambda/")!
         }
 
         ◊heading["Schedule"]
