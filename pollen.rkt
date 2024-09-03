@@ -1,6 +1,8 @@
-#lang racket
+#lang racket/base
 
 (require pollen/core
+         racket/function
+         racket/string
          string-interpolation)
 
 (define raisin-black "#1F2030")
