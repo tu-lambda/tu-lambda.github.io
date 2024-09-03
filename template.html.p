@@ -36,10 +36,11 @@
 
 	<link rel="stylesheet" href="fonts.css"> 
 	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="main.js"></script>
   </head>
 	<body class="antialiased scroll-smooth font-fira-sans selection:bg-[◊|jordy-light|] selection:text-[◊|raisin-black|]">
 		◊(->html `(div ([class ""])
-										,doc))
+									,doc))
 		<footer class="p-6 sm:p-8 md:p-12">
 			<div class="flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8 text-sm text-zinc-400">
 				<div class="flex flex-wrap gap-x-2 justify-center">
