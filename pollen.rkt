@@ -24,9 +24,9 @@
     `(div ([class "flex flex-wrap justify-center"] [aria-label "Tools/Techniques used"])
          ,(for/splice ([topic top-list]) (badge topic)))))
 
-(define (link text url)
+(define (link url . body)
   `(a ([class ,"text-[@{jordy}] hover:underline decoration-2 underline-offset-2 decoration-[@{jordy}] hover:text-[@{jordy}]"] [rel "noreferrer noopener"] [target "_blank"] [href ,url])
-    ,text))
+    ,@body))
 
 (define (par . body)
   `(p ([class "my-4 sm:text-lg leading-relaxed"]) ,@body))

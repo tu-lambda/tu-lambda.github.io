@@ -63,18 +63,18 @@
     ◊heading["About"]
     ◊par{Hi 👋}
     ◊par{
-      We're ◊(link "Dirk" "https://www.linkedin.com/in/dirk-hüsken-414b8b101"), ◊(link "Thomas" "https://www.linkedin.com/in/thomas-graf-253629ba"), ◊(link "David" "https://binderdavid.github.io") and ◊(link "Beat" "https://me.beathagenlocher.com") and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).
+      We're ◊link["https://www.linkedin.com/in/dirk-hüsken-414b8b101"]{Dirk}, ◊link["https://www.linkedin.com/in/thomas-graf-253629ba"]{Thomas}, ◊link["https://binderdavid.github.io"]{David} and ◊link["https://me.beathagenlocher.com"]{Beat} and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).
     }
     ◊par{
       We want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants.
     } 
     ◊par{
-      Looking forward to see you at the next edition of ◊(link "Tü.λ—Functional Programming Night Tübingen" "https://www.meetup.com/tu-lambda/")!
+      Looking forward to see you at the next edition of ◊link["https://www.meetup.com/tu-lambda/"]{Tü.λ—Functional Programming Night Tübingen}!
     }
     ◊meetups{
       ◊meetup[#:title "06.11.24"]{
         ◊par{
-          The next meetup will take place at the 06.11.24 at the ◊link["itdesign office" "https://itdesign.de/"], Friedrichstraße 12.
+          The next meetup will take place on the 06.11.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊li{18.45 Doors open & Welcome}
@@ -93,7 +93,7 @@
       }
       ◊meetup[#:title "28.08.24"]{
         ◊par{
-          This meetup took place at the 28.08.24 at the ◊link["itdesign office" "https://itdesign.de/"], Friedrichstraße 12.
+          This meetup took place on the 28.08.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊li{18.45 Doors open & Welcome}
@@ -113,7 +113,7 @@
     }
 
     ◊par{
-      If you want to attend the meetup, please ◊(link "tell us about it" "https://www.meetup.com/tu-lambda/") so that we can plan accordingly 😊
+      If you want to attend the meetup, please ◊link["https://www.meetup.com/tu-lambda/"]{tell us about it} so that we can plan accordingly 😊
     }
         
     ◊heading["Contact"]
