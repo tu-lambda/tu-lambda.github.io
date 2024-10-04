@@ -48,7 +48,7 @@ jobs:
       - run: raco pkg install --auto --skip-installed pollen string-interpolation
       - run: mkdir output
       - run: raco pollen render
-      - run: cp -r assets *.html *.css output
+      - run: cp -r assets *.html *.css *.js output
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
