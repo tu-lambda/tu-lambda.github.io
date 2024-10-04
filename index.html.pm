@@ -78,10 +78,10 @@
         }
         ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊li{18.45 Doors open & Welcome}
-          ◊li{Talk 1 (maybe you?)}
-          ◊; ◊p[#:class "ml-10 my-2 italic text-base"]{
-
-          ◊; }
+          ◊li{Really Functional Data Structures (Marvin)}
+          ◊p[#:class "ml-10 my-2 italic text-base"]{
+			Last time, David showed us functional data structures in the form of persistent data structures. In this talk, I want to show you data structures that are defined entirely by functions themselves - no classes, structs, bitmaps, etc.! Knowing about such structures not only tickles the brain, but can also lead to a better intuition for solving problems functionally. Furthermore, one of the data structures shown can be used for space-efficient encodings of fractals and fun animations.
+          }
           ◊li{Short break}
           ◊li{Talk 2 (maybe you?)}
           ◊; ◊p[#:class "ml-10 my-2 italic text-base"]{
