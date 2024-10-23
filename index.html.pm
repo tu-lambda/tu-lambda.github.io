@@ -78,15 +78,35 @@
         }
         ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊li{18.45 Doors open & Welcome}
-          ◊li{Really Functional Data Structures (Marvin)}
+          ◊li{◊strong{Really Functional Data Structures} (Marvin)}
           ◊p[#:class "ml-10 my-2 italic text-base"]{
 			Last time, David showed us functional data structures in the form of persistent data structures. In this talk, I want to show you data structures that are defined entirely by functions themselves - no classes, structs, bitmaps, etc.! Knowing about such structures not only tickles the brain, but can also lead to a better intuition for solving problems functionally. Furthermore, one of the data structures shown can be used for space-efficient encodings of fractals and fun animations.
           }
           ◊li{Short break}
-          ◊li{Talk 2 (maybe you?)}
-          ◊; ◊p[#:class "ml-10 my-2 italic text-base"]{
+          ◊li{◊strong{Decoupled by Default – Funktionale Programmierung in der Softwarearchitektur} (Markus)}
+          ◊p[#:class "ml-10 my-2 italic text-base"]{
 
-          ◊; }
+          Kopplung – das Maß der Abhängigkeiten zwischen Modulen – ist das
+          zentrale Konzept der Softwarearchitektur.  Die herkömmliche Sicht auf
+          Kopplung ist die, dass hohe Kopplung dann entsteht, wenn man nicht
+          aufpasst beim Programmieren: wenn man ◊em{nicht} gegen explizite
+          Schnittstellen programmiert, wenn man ◊em{kein} Visitor-Pattern
+          verwendet, wenn man ◊em{nicht} Dependency Injection verwendet …
+          Kopplung, so scheint es, ist das Resultat von Unterlassung.  Die
+          Kopplung wieder zu senken, erfordert dann ausdrückliche
+          Gegenmaßnahmen.  Dieser Vortrag zeigt eine alternative Sichtweise:
+          Viele Arten von Kopplung entstehen aufgrund von Unzulänglichkeiten der
+          Programmiersprache.  In funktionalen Sprachen treten diese
+          Kopplungsarten teilweise gar nicht auf oder zumindest ist die
+          Werkseinstellung dieser Sprachen dergestalt, dass Kopplung vermieden
+          wird.  Das zeigen wir im Vortrag insbesondere mit Blick auf den Umgang
+          mit geteiltem Zustand und Plattformabhängigkeiten.  Am Ende zeigen
+          wir, dass auch funktionale Programmierer nicht automatisch vor allen
+          Arten unnötiger Kopplung sicher sind.  Wir zeigen, wie der Ansatz des
+          Denotational Design dort Abhilfe schaffen kann, indem die Semantik von
+          Schnittstellen in den Vordergrund gerückt wird.
+
+          }
           ◊li{Food, talking, coding, whatever}
           ◊li{22.00 End}
         }
