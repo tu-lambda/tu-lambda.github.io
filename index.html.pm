@@ -85,26 +85,25 @@
           ◊li{Short break}
           ◊li{◊strong{Decoupled by Default – Funktionale Programmierung in der Softwarearchitektur} (Markus)}
           ◊p[#:class "ml-10 my-2 italic text-base"]{
-
-          Kopplung – das Maß der Abhängigkeiten zwischen Modulen – ist das
-          zentrale Konzept der Softwarearchitektur.  Die herkömmliche Sicht auf
+          Kopplung – das Maß der Abhängigkeiten zwischen Modulen – ist ein
+          zentrales Konzept der Softwarearchitektur.  Die herkömmliche Sicht auf
           Kopplung ist die, dass hohe Kopplung dann entsteht, wenn man nicht
           aufpasst beim Programmieren: wenn man ◊em{nicht} gegen explizite
-          Schnittstellen programmiert, wenn man ◊em{kein} Visitor-Pattern
-          verwendet, wenn man ◊em{nicht} Dependency Injection verwendet …
-          Kopplung, so scheint es, ist das Resultat von Unterlassung.  Die
-          Kopplung wieder zu senken, erfordert dann ausdrückliche
-          Gegenmaßnahmen.  Dieser Vortrag zeigt eine alternative Sichtweise:
-          Viele Arten von Kopplung entstehen aufgrund von Unzulänglichkeiten der
-          Programmiersprache.  In funktionalen Sprachen treten diese
-          Kopplungsarten teilweise gar nicht auf oder zumindest ist die
-          Werkseinstellung dieser Sprachen dergestalt, dass Kopplung vermieden
-          wird.  Das zeigen wir im Vortrag insbesondere mit Blick auf den Umgang
-          mit geteiltem Zustand und Plattformabhängigkeiten.  Am Ende zeigen
-          wir, dass auch funktionale Programmierer nicht automatisch vor allen
-          Arten unnötiger Kopplung sicher sind.  Wir zeigen, wie der Ansatz des
-          Denotational Design dort Abhilfe schaffen kann, indem die Semantik von
-          Schnittstellen in den Vordergrund gerückt wird.
+          Schnittstellen programmiert, wenn man ◊em{nicht} die Aggregate richtig
+          wählt, wenn man ◊em{nicht} Dependency Injection verwendet …  Kopplung, so
+          scheint es, ist das Resultat von Unterlassung.  Die Kopplung wieder zu
+          senken, das erfordert dann ausdrückliche Gegenmaßnahmen.  Dieser
+          Vortrag zeigt eine alternative Sichtweise: Viele Arten von Kopplung
+          entstehen aufgrund von Unzulänglichkeiten des Programmierparadigmas.
+          In funktionalen Sprachen treten solche Arten von Kopplung teilweise
+          gar nicht auf. In jedem Fall ist die Werkseinstellung dieser Sprachen
+          dergestalt, dass Kopplung vermieden wird.  Wir illustrieren das im
+          Vortrag insbesondere mit Blick auf den Umgang mit geteiltem Zustand
+          und Plattformabhängigkeiten.  Zu guter Letzt zeigen wir, dass auch
+          funktionale Programmierer:innen nicht automatisch vor allen Arten
+          unnötiger Kopplung sicher sind.  Wir stellen deshalb fortgeschrittene
+          Techniken der funktionalen Softwarearchitektur vor, die an dieser
+          Stelle Abhilfe schaffen können.
 
           }
           ◊li{Food, talking, coding, whatever}
