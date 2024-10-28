@@ -76,57 +76,45 @@
         ◊par{
           The next meetup will take place on the 06.11.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
-        ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
-          ◊li{18.45 Doors open & Welcome}
-          ◊li{◊strong{Really Functional Data Structures} (Marvin)}
-          ◊p[#:class "-ml-2 md:mx-8 mt-2 mb-6 italic text-base"]{
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Really Functional Data Structures} (Marvin)}
+          ◊abstract{
 			Last time, David showed us functional data structures in the form of persistent data structures. In this talk, I want to show you data structures that are defined entirely by functions themselves - no classes, structs, bitmaps, etc.! Knowing about such structures not only tickles the brain, but can also lead to a better intuition for solving problems functionally. Furthermore, one of the data structures shown can be used for space-efficient encodings of fractals and fun animations.
           }
-          ◊li{Short break}
-          ◊li{◊strong{Decoupled by Default – Funktionale Programmierung in der Softwarearchitektur} (Markus)}
-          ◊p[#:class "-ml-2 md:mx-8 mt-2 mb-6 italic text-base"]{
-
-          Kopplung – das Maß der Abhängigkeiten zwischen Modulen – ist das
-          zentrale Konzept der Softwarearchitektur.  Die herkömmliche Sicht auf
-          Kopplung ist die, dass hohe Kopplung dann entsteht, wenn man nicht
-          aufpasst beim Programmieren: wenn man ◊span[#:class "font-medium"]{nicht} gegen explizite
-          Schnittstellen programmiert, wenn man ◊span[#:class "font-medium"]{kein} Visitor-Pattern
-          verwendet, wenn man ◊span[#:class "font-medium"]{nicht} Dependency Injection verwendet …
-          Kopplung, so scheint es, ist das Resultat von Unterlassung.  Die
-          Kopplung wieder zu senken, erfordert dann ausdrückliche
-          Gegenmaßnahmen.  Dieser Vortrag zeigt eine alternative Sichtweise:
-          Viele Arten von Kopplung entstehen aufgrund von Unzulänglichkeiten der
-          Programmiersprache.  In funktionalen Sprachen treten diese
-          Kopplungsarten teilweise gar nicht auf oder zumindest ist die
-          Werkseinstellung dieser Sprachen dergestalt, dass Kopplung vermieden
-          wird.  Das zeigen wir im Vortrag insbesondere mit Blick auf den Umgang
-          mit geteiltem Zustand und Plattformabhängigkeiten.  Am Ende zeigen
-          wir, dass auch funktionale Programmierer nicht automatisch vor allen
-          Arten unnötiger Kopplung sicher sind.  Wir zeigen, wie der Ansatz des
-          Denotational Design dort Abhilfe schaffen kann, indem die Semantik von
-          Schnittstellen in den Vordergrund gerückt wird.
+          ◊orga{Short break}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Decoupled by Default – Funktionale Programmierung in der Softwarearchitektur} (Markus)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{Kopplung – das Maß der Abhängigkeiten zwischen Modulen – ist das zentrale Konzept der Softwarearchitektur. Die herkömmliche Sicht auf Kopplung ist die, dass hohe Kopplung dann entsteht, wenn man nicht aufpasst beim Programmieren: wenn man ◊span[#:class "font-medium"]{nicht} gegen explizite Schnittstellen programmiert, wenn man ◊span[#:class "font-medium"]{kein} Visitor-Pattern verwendet, wenn man ◊span[#:class "font-medium"]{nicht} Dependency Injection verwendet …
           }
-          ◊li{Food, talking, coding, whatever}
-          ◊li{22.00 End}
+          ◊p[#:class "my-2"]{
+            Kopplung, so scheint es, ist das Resultat von Unterlassung. Die Kopplung wieder zu senken, erfordert dann ausdrückliche Gegenmaßnahmen.
+          }
+          ◊p[#:class "my-2"]{
+            Dieser Vortrag zeigt eine alternative Sichtweise: Viele Arten von Kopplung entstehen aufgrund von Unzulänglichkeiten der Programmiersprache. In funktionalen Sprachen treten diese Kopplungsarten teilweise gar nicht auf oder zumindest ist die Werkseinstellung dieser Sprachen dergestalt, dass Kopplung vermieden wird. Das zeigen wir im Vortrag insbesondere mit Blick auf den Umgang mit geteiltem Zustand und Plattformabhängigkeiten. Am Ende zeigen wir, dass auch funktionale Programmierer nicht automatisch vor allen Arten unnötiger Kopplung sicher sind. Wir zeigen, wie der Ansatz des Denotational Design dort Abhilfe schaffen kann, indem die Semantik von Schnittstellen in den Vordergrund gerückt wird.
+          }
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
         }
       }
       ◊meetup[#:title "28.08.24"]{
         ◊par{
           This meetup took place on the 28.08.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
-        ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
-          ◊li{18.45 Doors open & Welcome}
-          ◊li{◊link["https://haglobah.github.io/talks/2024-08-28/"]{Simple development environments with Nix} (Beat)}
-          ◊p[#:class "-ml-2 md:mx-8 mt-2 mb-6 italic text-base"]{
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18.45 Doors open & Welcome}
+          ◊p{◊link["https://haglobah.github.io/talks/2024-08-28/"]{◊span[#:class "font-medium"]{Simple development environments with Nix}} (Beat)}
+          ◊abstract{
             Setting up development environments is more complex than it should be. Nix makes entering development environments as easy as running nix develop, making them simple and reproducible. This talk explores what an ideal workflow could look like and walks through a project setup with Nix, outlining its benefits and deficiencies.
           }
-          ◊li{Short break}
-          ◊li{◊link["https://binderdavid.github.io/talks/VortragHAMT.pdf"]{Persistent Data Structures: From Lists to Hashmaps} (David)}
-          ◊p[#:class "-ml-2 md:mx-8 mt-2 mb-6 italic text-base"]{
+          ◊orga{Short break}
+          ◊p{◊link["https://binderdavid.github.io/talks/VortragHAMT.pdf"]{◊span[#:class "font-medium"]{Persistent Data Structures: From Lists to Hashmaps}} (David)}
+          ◊abstract{
             Functional programmers cannot use the same data structures and algorithms that imperative programmers are used to. Functional data structures make it easier to reason about what our code does, but have different performance characteristics. This talk will introduce some of the basic and advanced techniques we use when we implement functional data structures efficiently.
           }
-          ◊li{Food, talking, coding, whatever}
-          ◊li{22.00 End}
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
         }
       }
     }

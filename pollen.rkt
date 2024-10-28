@@ -38,6 +38,15 @@
   `(h1 ([id ,(id-ify text)] [class ,"text-3xl font-fira-code text-[@{jordy}] tracking-tighter leading-snug"])
        ,text))
 
+(define (orga . body)
+  `(div ([class "flex items-center gap-2 -mx-2 my-4"])
+      (span ([class "border-solid border-b border-zinc-300 flex-1"]))
+      (p ([class "italic text-zinc-500"]) ,@body)
+      (span ([class "border-solid border-b border-zinc-300 flex-1"]))))
+
+(define (abstract . body)
+  `(div ([class "md:mx-8 mt-2 mb-4 italic text-base"]) ,@body))
+
 (define (meetup #:title title #:img [img ""] . body)
   `(div ([class "overflow-hidden my-4 snap-center flex w-[90%] shrink-0 mx-8 sm:mx-16 shadow-lg rounded-lg"])
       ,(if (string=? img "")
