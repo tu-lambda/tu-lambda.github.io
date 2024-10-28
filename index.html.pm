@@ -79,19 +79,19 @@
         ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊li{18.45 Doors open & Welcome}
           ◊li{◊strong{Really Functional Data Structures} (Marvin)}
-          ◊p[#:class "ml-10 my-2 italic text-base"]{
+          ◊p[#:class "-ml-2 md:mx-8 mt-2 mb-6 italic text-base"]{
 			Last time, David showed us functional data structures in the form of persistent data structures. In this talk, I want to show you data structures that are defined entirely by functions themselves - no classes, structs, bitmaps, etc.! Knowing about such structures not only tickles the brain, but can also lead to a better intuition for solving problems functionally. Furthermore, one of the data structures shown can be used for space-efficient encodings of fractals and fun animations.
           }
           ◊li{Short break}
           ◊li{◊strong{Decoupled by Default – Funktionale Programmierung in der Softwarearchitektur} (Markus)}
-          ◊p[#:class "ml-10 my-2 italic text-base"]{
+          ◊p[#:class "-ml-2 md:mx-8 mt-2 mb-6 italic text-base"]{
 
           Kopplung – das Maß der Abhängigkeiten zwischen Modulen – ist das
           zentrale Konzept der Softwarearchitektur.  Die herkömmliche Sicht auf
           Kopplung ist die, dass hohe Kopplung dann entsteht, wenn man nicht
-          aufpasst beim Programmieren: wenn man ◊em{nicht} gegen explizite
-          Schnittstellen programmiert, wenn man ◊em{kein} Visitor-Pattern
-          verwendet, wenn man ◊em{nicht} Dependency Injection verwendet …
+          aufpasst beim Programmieren: wenn man ◊span[#:class "font-medium"]{nicht} gegen explizite
+          Schnittstellen programmiert, wenn man ◊span[#:class "font-medium"]{kein} Visitor-Pattern
+          verwendet, wenn man ◊span[#:class "font-medium"]{nicht} Dependency Injection verwendet …
           Kopplung, so scheint es, ist das Resultat von Unterlassung.  Die
           Kopplung wieder zu senken, erfordert dann ausdrückliche
           Gegenmaßnahmen.  Dieser Vortrag zeigt eine alternative Sichtweise:
@@ -105,7 +105,6 @@
           Arten unnötiger Kopplung sicher sind.  Wir zeigen, wie der Ansatz des
           Denotational Design dort Abhilfe schaffen kann, indem die Semantik von
           Schnittstellen in den Vordergrund gerückt wird.
-
           }
           ◊li{Food, talking, coding, whatever}
           ◊li{22.00 End}
@@ -118,12 +117,12 @@
         ◊ul[#:class "list-disc list-inside mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊li{18.45 Doors open & Welcome}
           ◊li{◊link["https://haglobah.github.io/talks/2024-08-28/"]{Simple development environments with Nix} (Beat)}
-          ◊p[#:class "ml-10 my-2 italic text-base"]{
+          ◊p[#:class "-ml-2 md:mx-8 mt-2 mb-6 italic text-base"]{
             Setting up development environments is more complex than it should be. Nix makes entering development environments as easy as running nix develop, making them simple and reproducible. This talk explores what an ideal workflow could look like and walks through a project setup with Nix, outlining its benefits and deficiencies.
           }
           ◊li{Short break}
           ◊li{◊link["https://binderdavid.github.io/talks/VortragHAMT.pdf"]{Persistent Data Structures: From Lists to Hashmaps} (David)}
-          ◊p[#:class "ml-10 my-2 italic text-base"]{
+          ◊p[#:class "-ml-2 md:mx-8 mt-2 mb-6 italic text-base"]{
             Functional programmers cannot use the same data structures and algorithms that imperative programmers are used to. Functional data structures make it easier to reason about what our code does, but have different performance characteristics. This talk will introduce some of the basic and advanced techniques we use when we implement functional data structures efficiently.
           }
           ◊li{Food, talking, coding, whatever}
