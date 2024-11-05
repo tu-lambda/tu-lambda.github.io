@@ -45,7 +45,13 @@
       (span ([class "border-solid border-b border-zinc-300 flex-1"]))))
 
 (define (abstract . body)
-  `(div ([class "md:mx-8 mt-2 mb-4 italic text-base"]) ,@body))
+  `(div ([class "abstract-wrapper flex flex-col overflow-hidden italic text-base md:mx-8 mt-2 mb-4"])
+        (div ([class "abstract-content line-clamp-[8] transition-all duration-300 ease-in-out mb-2"])
+             ,@body)
+        (button ([class ,"toggle-button inline-flex justify-center items-center gap-2 self-center text-[@{jordy}]/80 hover:text-[@{jordy}] transition-all duration-200"])
+              (span ([class "button-text"]) "Show more")
+        )))
+
 
 (define (meetup #:title title #:img [img ""] . body)
   `(div ([class "overflow-hidden my-4 snap-center flex w-[90%] shrink-0 mx-8 sm:mx-16 shadow-lg rounded-lg"])
