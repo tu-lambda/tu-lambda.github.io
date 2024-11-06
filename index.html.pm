@@ -78,7 +78,7 @@
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
-          ◊p[#:class ""]{◊span[#:class "font-medium"]{Really Functional Data Structures} (Marvin)}
+          ◊p{◊link["https://marvinborner.github.io/tuela24/"]{◊span[#:class "font-medium"]{Really Functional Data Structures}} (Marvin)}
           ◊abstract{
 			      Last time, David showed us functional data structures in the form of persistent data structures. In this talk, I want to show you data structures that are defined entirely by functions themselves - no classes, structs, bitmaps, etc.! Knowing about such structures not only tickles the brain, but can also lead to a better intuition for solving problems functionally. Furthermore, one of the data structures shown can be used for space-efficient encodings of fractals and fun animations.
           }
