@@ -32,23 +32,13 @@ document.addEventListener('DOMContentLoaded', () => {
   abstracts.forEach(abstract => {
     const content = abstract.querySelector('.abstract-content');
     const button = abstract.querySelector('.toggle-button');
-    const lineClamp = 8; // Number of lines set in line-clamp
 
-    // Function to count the number of lines in the content
-    const countLines = (element) => {
-      const computedStyle = window.getComputedStyle(element);
-      const lineHeight = parseFloat(computedStyle.lineHeight);
-      const height = parseFloat(computedStyle.height);
-      return Math.round(height / lineHeight);
-    };
-
-    // Determine if the content exceeds the line-clamp
+    // Function to determine if the content is truncated
     const isTruncated = () => {
-      const totalLines = countLines(content);
-      return totalLines > lineClamp;
+      return content.scrollHeight > content.clientHeight;
     };
 
-    // Show or hide the toggle button based on content length
+    // Show or hide the toggle button based on truncation
     if (isTruncated()) {
       button.classList.remove('hidden');
     } else {
@@ -60,22 +50,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
   toggleButtons.forEach(button => {
     button.addEventListener('click', () => {
-      const wrapper = button.closest('.abstract-wrapper');
-      const content = wrapper.querySelector('.abstract-content');
-      
-      // Toggle expanded state
-      // wrapper.classList.toggle('max-h-60'); // Tailwind's max-height: 13rem (52 * 0.25rem)
-      // content.classList.toggle('max-h-48'); // Tailwind's max-height: 13rem (52 * 0.25rem)
-      content.classList.toggle('line-clamp-[8]');
-      content.classList.toggle('line-clamp-none');
+      const abstract = button.closest('.abstract-wrapper');
+      const content = abstract.querySelector('.abstract-content');
 
-      // Update button text
-      const isExpanded = !content.classList.contains('line-clamp-[8]');
-      const buttonText = button.querySelector('.button-text')
+      // Toggle the line-clamp class
+      content.classList.toggle('line-clamp-[10]');
+
+      // Update button text based on the new state
+      const isExpanded = !content.classList.contains('line-clamp-[10]');
+      const buttonText = button.querySelector('.button-text');
       buttonText.textContent = isExpanded ? 'Show Less' : 'Show More';
-      
-      // Update aria-expanded attribute for accessibility
-      // button.setAttribute('aria-expanded', isExpanded);
+    });
+  });
+
+  // Re-evaluate button visibility on window resize for responsiveness
+  window.addEventListener('resize', () => {
+    abstracts.forEach(abstract => {
+      const content = abstract.querySelector('.abstract-content');
+      const button = abstract.querySelector('.toggle-button');
+
+      // Reset line-clamp to accurately measure
+      content.classList.add('line-clamp-[10]');
+      // content.classList.remove('line-clamp-none'); // Ensure no conflicting classes
+
+      // Determine truncation
+      if (content.scrollHeight > content.clientHeight) {
+        button.classList.remove('hidden');
+      } else {
+        button.classList.add('hidden');
+      }
+
+      // If content is not truncated, ensure it is not expanded
+      if (!content.classList.contains('line-clamp-[10]') && !button.classList.contains('hidden')) {
+        content.classList.add('line-clamp-[10]');
+        button.querySelector('.button-text').textContent = 'Show More';
+      }
     });
   });
 });

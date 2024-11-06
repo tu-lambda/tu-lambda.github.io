@@ -46,9 +46,9 @@
 
 (define (abstract . body)
   `(div ([class "abstract-wrapper flex flex-col overflow-hidden italic text-base md:mx-8 mt-2 mb-4"])
-        (div ([class "abstract-content line-clamp-[8] transition-all duration-300 ease-in-out mb-2"])
+        (div ([class "abstract-content line-clamp-[10] transition-all duration-300 ease-in-out mb-2"])
              ,@body)
-        (button ([class ,"toggle-button inline-flex justify-center items-center gap-2 self-center text-[@{jordy}]/80 hover:text-[@{jordy}] transition-all duration-200"])
+        (button ([class ,"toggle-button inline-flex justify-center items-center gap-2 self-center text-[@{jordy}]/80 hover:text-[@{jordy}] transition-all duration-200 hidden"])
               (span ([class "button-text"]) "Show more")
         )))
 
