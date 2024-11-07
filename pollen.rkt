@@ -45,10 +45,11 @@
       (span ([class "border-solid border-b border-zinc-300 flex-1"]))))
 
 (define (abstract . body)
-  `(div ([class "abstract-wrapper flex flex-col overflow-hidden italic text-base md:mx-8 mt-2 mb-4"])
-        (div ([class "abstract-content line-clamp-[10] transition-all duration-300 ease-in-out mb-2"])
+  `(div ([class "abstract-wrapper relative flex flex-col overflow-hidden italic text-base md:mx-8 mt-2 mb-4"])
+        (div ([class "abstract-content line-clamp-[8] transition-all duration-300 ease-in-out mb-2"])
              ,@body)
-        (button ([class ,"toggle-button inline-flex justify-center items-center gap-2 self-center text-[@{jordy}]/80 hover:text-[@{jordy}] transition-all duration-200 hidden"])
+        (div ([class "fade-overlay absolute bottom-6 left-0 w-full h-12 pointer-events-none bg-gradient-to-t from-white"]))
+        (button ([class ,"toggle-button inset-x-0 bottom-0 inline-flex justify-center items-center gap-2 self-center bg-white text-[@{jordy}]/80 hover:text-[@{jordy}] transition-all duration-200 hidden"])
               (span ([class "button-text"]) "Show more")
         )))
 

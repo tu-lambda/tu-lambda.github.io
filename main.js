@@ -32,17 +32,21 @@ document.addEventListener('DOMContentLoaded', () => {
   abstracts.forEach(abstract => {
     const content = abstract.querySelector('.abstract-content');
     const button = abstract.querySelector('.toggle-button');
+    const fadeOverlay = abstract.querySelector('.fade-overlay');
+
 
     // Function to determine if the content is truncated
     const isTruncated = () => {
       return content.scrollHeight > content.clientHeight;
     };
 
-    // Show or hide the toggle button based on truncation
+    // Show or hide the toggle button and fade overlay based on truncation
     if (isTruncated()) {
       button.classList.remove('hidden');
+      fadeOverlay.classList.remove('hidden');
     } else {
       button.classList.add('hidden');
+      fadeOverlay.classList.add('hidden');
     }
   });
 
@@ -52,38 +56,46 @@ document.addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', () => {
       const abstract = button.closest('.abstract-wrapper');
       const content = abstract.querySelector('.abstract-content');
+      const fadeOverlay = abstract.querySelector('.fade-overlay');
 
       // Toggle the line-clamp class
-      content.classList.toggle('line-clamp-[10]');
+      content.classList.toggle('line-clamp-[8]');
 
-      // Update button text based on the new state
-      const isExpanded = !content.classList.contains('line-clamp-[10]');
-      const buttonText = button.querySelector('.button-text');
-      buttonText.textContent = isExpanded ? 'Show Less' : 'Show More';
+      if (content.classList.contains('line-clamp-[8]')) {
+        // If content is clamped, show the fade overlay and set button to "Show More"
+        fadeOverlay.classList.remove('hidden');
+        button.querySelector('.button-text').textContent = 'Show More';
+      } else {
+        // If content is expanded, hide the fade overlay and set button to "Show Less"
+        fadeOverlay.classList.add('hidden');
+        button.querySelector('.button-text').textContent = 'Show Less';
+      }
     });
   });
 
-  // Re-evaluate button visibility on window resize for responsiveness
+  // Re-evaluate on window resize
   window.addEventListener('resize', () => {
     abstracts.forEach(abstract => {
       const content = abstract.querySelector('.abstract-content');
       const button = abstract.querySelector('.toggle-button');
+      const fadeOverlay = abstract.querySelector('.fade-overlay');
 
-      // Reset line-clamp to accurately measure
-      content.classList.add('line-clamp-[10]');
-      // content.classList.remove('line-clamp-none'); // Ensure no conflicting classes
+      // Reset line-clamp to check truncation accurately
+      content.classList.add('line-clamp-[8]');
+      fadeOverlay.classList.add('hidden');
 
-      // Determine truncation
       if (content.scrollHeight > content.clientHeight) {
         button.classList.remove('hidden');
+        fadeOverlay.classList.remove('hidden');
+
+        // Reset content to clamped state if it was expanded
+        if (!content.classList.contains('line-clamp-[8]')) {
+          content.classList.add('line-clamp-[8]');
+          button.querySelector('.button-text').textContent = 'Show More';
+        }
       } else {
         button.classList.add('hidden');
-      }
-
-      // If content is not truncated, ensure it is not expanded
-      if (!content.classList.contains('line-clamp-[10]') && !button.classList.contains('hidden')) {
-        content.classList.add('line-clamp-[10]');
-        button.querySelector('.button-text').textContent = 'Show More';
+        fadeOverlay.classList.add('hidden');
       }
     });
   });
