@@ -4,25 +4,85 @@ document.addEventListener('DOMContentLoaded', function() {
   const scrollRightBtn = document.getElementById('meetups-scroll-right');
 
   if (scrollLeftBtn && scrollRightBtn && meetupContainer) {
-      scrollLeftBtn.addEventListener('click', () => {
-          const containerWidth = meetupContainer.clientWidth;
-          const scrollAmount = containerWidth * 1.0;
-          meetupContainer.scrollBy({
-              left: -scrollAmount,
-              behavior: 'smooth'
-          });
-      });
+    const leftmostElemIsShown = () => {
+      let { clientWidth, scrollLeft, scrollWidth } = meetupContainer
+      scrollLeft = Math.abs(scrollLeft)
+      errorMargin = scrollWidth * 0.1
 
-      scrollRightBtn.addEventListener('click', () => {
-          const containerWidth = meetupContainer.clientWidth;
-          const scrollAmount = containerWidth * 1.0;
-          meetupContainer.scrollBy({
-              left: scrollAmount,
-              behavior: 'smooth'
-          });
+      res = (scrollLeft > scrollWidth - clientWidth - errorMargin)
+      return res
+    }
+    const rightmostElemIsShown = () => {
+      let { scrollLeft, scrollWidth } = meetupContainer
+      scrollLeft = Math.abs(scrollLeft)
+      errorMargin = scrollWidth * 0.1
+
+      res = (scrollLeft < errorMargin)
+      return res
+    }
+
+    const deactivate = (button) => {
+      button.classList.add('opacity-0');
+      button.classList.remove('opacity-100', 'hover:cursor-pointer', 'hover:scale-125');
+      button.disabled = true;
+    }
+
+    const activate = (button) => {
+      button.classList.add('opacity-100', 'hover:cursor-pointer', 'hover:scale-125');
+      button.classList.remove('opacity-0');
+      button.disabled = false;
+    }
+
+    // Function to update button visibility
+    const updateButtonVisibility = () => {
+      // Check if the container is scrolled to the left
+      if (leftmostElemIsShown()) {
+        deactivate(scrollLeftBtn)
+      } else {
+        activate(scrollLeftBtn)
+      }
+      
+      // Check if the container is scrolled to the right
+      if (rightmostElemIsShown()) {
+        deactivate(scrollRightBtn)
+      } else {
+        activate(scrollRightBtn)
+      }
+    };
+
+    // Initial check on page load
+    updateButtonVisibility();
+
+    // Scroll Left Button
+    scrollLeftBtn.addEventListener('click', () => {
+      const containerWidth = meetupContainer.clientWidth;
+      meetupContainer.scrollBy({
+        left: -containerWidth,
+        behavior: 'smooth'
       });
+    });
+
+    // Scroll Right Button
+    scrollRightBtn.addEventListener('click', () => {
+      const containerWidth = meetupContainer.clientWidth;
+      meetupContainer.scrollBy({
+        left: containerWidth,
+        behavior: 'smooth'
+      });
+    });
+
+    // Update buttons after scrolling
+    meetupContainer.addEventListener('scroll', () => {
+      // Throttle the updates to improve performance
+      clearTimeout(meetupContainer.updateTimer);
+      meetupContainer.updateTimer = setTimeout(updateButtonVisibility, 100);
+    });
+
+    // Also update on window resize in case the container size changes
+    window.addEventListener('resize', updateButtonVisibility);
+    
   } else {
-      console.error('One or more required elements are missing from the DOM');
+    console.error('One or more required elements are missing from the DOM');
   }
 });
 
