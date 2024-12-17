@@ -78,11 +78,13 @@
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
-          ◊p[#:class ""]{◊span[#:class "font-medium"]{Talk 1} (maybe you?)}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Explaining Functional Programming} (Beat)}
           ◊abstract{
+            Most of us have been there—explaining functional programming is hard.
+This talk first gathers the prerequisites for understanding functional programming and then provides a template for explaining it. In the meantime, it touches on the history of programming, programming languages, and some general concepts such as coupling and complexity.
           }
           ◊orga{Short break}
-          ◊p[#:class ""]{◊span[#:class "font-medium"]{Talk 2} (maybe you?)}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Lightning Talks} (Spontaneous 👀)}
           ◊abstract{
           }
           ◊orga{Food, talking, coding, whatever}
