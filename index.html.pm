@@ -72,13 +72,46 @@
       Looking forward to see you at the next edition of ◊link["https://www.meetup.com/tu-lambda/"]{Tü.λ—Functional Programming Night Tübingen}!
     }
     ◊meetups{
-      ◊meetup[#:title "15.01.25"]{
+      ◊meetup[#:title "26.03.25"]{
         ◊par{
-          The next meetup will take place on the 15.01.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          The next meetup will take place on the 26.03.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
-          ◊p[#:class ""]{◊span[#:class "font-medium"]{Explaining Functional Programming} (Beat)}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Building a Large-Scale, Streaming-Based Logging and Monitoring Solution} (Marcus)}
+          ◊abstract{
+            ◊p[#:class ""]{
+              In a semiconductor fab, numerous processes play a role in manufacturing a
+              microchip.  Keeping track of the manufacturing process, recording all the data
+              and metrics that occur in the different steps, sending alerts when parameters
+              indicate production problems, and correlating the data with the resulting
+              product is essential for a successful and efficient production.
+            }
+
+            ◊p[#:class "my-2"]{
+              We show how we have built a large-scale logging and monitoring solution of a
+              large and heterogenous legacy enterprise IT infrastructure that controls
+              semiconductor manufacturing.  Our streaming-based system uses Riemann and
+              handles more than 5,000 events per second, stores terabytes of logs and metrics
+              persistently in Elasticsearch and Prometheus, and provides visualizations with
+              Kibana and Grafana and real-time alerting.
+            }
+          }
+          ◊orga{Short break}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Lightning Talks} (Spontaneous 👀)}
+          ◊abstract{
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "15.01.25"]{
+        ◊par{
+          This meetup took place on the 15.01.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{◊link["https://haglobah.github.io/talks/2025-01-15-explaining-functional-programming"]{Explaining Functional Programming}} (Beat)}
           ◊abstract{
             Most of us have been there—explaining functional programming is hard.
 This talk first gathers the prerequisites for understanding functional programming and then provides a template for explaining it. In the meantime, it touches on the history of programming, programming languages, and some general concepts such as coupling and complexity.
