@@ -37,7 +37,7 @@
         "So that you can be energetic, happy and joyful while coding.")
     )
     (div ([class "mx-auto"])
-      (a ([href "#meetup"]
+      (a ([href "#content"]
           [class ,"mb-4 flex flex-col gap-2 items-center hover:text-[@{jordy}] focus-visible:text-[@{jordy}] duration-300"])
         (span ([class "text-xl text-[@{jordy}] font-fira-code tracking-tighter leading-snug"])"Interested?")
         (svg ([xmlns "http://www.w3.org/2000/svg"] [fill "none"] [viewBox "0 0 24 24"] [stroke-width "1"] [stroke "currentColor"] [class "size-16"])
@@ -59,7 +59,7 @@
 )
 
 ◊div[#:class "bg-white"]{
-  ◊div[#:id "meetup" #:class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"]{
+  ◊div[#:id "content" #:class "min-h-[94vh] text-zinc-700 mx-auto h-full max-w-screen-md px-6 pt-12 md:px-12 md:pt-20 lg:px-24"]{
     ◊heading["About"]
     ◊par{Hi 👋}
     ◊par{

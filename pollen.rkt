@@ -64,7 +64,7 @@
         ,@body)))
 
 (define (meetups . body)
-  `(div ([class "scroll-container mb-4 -mx-6 md:-mx-12 lg:-mx-24 md:gap-4 lg:gap-8 relative"])
+  `(div ([id "meetups"] [class "scroll-container mb-4 -mx-6 md:-mx-12 lg:-mx-24 md:gap-4 lg:gap-8 relative"])
     (div ([class "flex justify-between"])
       (button ([id "meetups-scroll-left"] [class "
         sticky -mr-6 sm:-mr-2 md:mr-0 left-0 top-0 transform 
