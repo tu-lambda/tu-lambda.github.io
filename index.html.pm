@@ -63,10 +63,10 @@
     ◊heading["About"]
     ◊par{Hi 👋}
     ◊par{
-      We're ◊link["https://www.linkedin.com/in/dirk-hüsken-414b8b101"]{Dirk}, ◊link["https://www.linkedin.com/in/thomas-graf-253629ba"]{Thomas}, ◊link["https://binderdavid.github.io"]{David} and ◊link["https://me.beathagenlocher.com"]{Beat} and we thought it would be nice if the wonderful city of Tübingen had a functional programming meetup (again!).
+      We're ◊link["https://www.linkedin.com/in/dirk-hüsken-414b8b101"]{Dirk}, ◊link["https://www.linkedin.com/in/thomas-graf-253629ba"]{Thomas}, ◊link["https://binderdavid.github.io"]{David} and ◊link["https://me.beathagenlocher.com"]{Beat} and we're excited to connect and grow the functional programming community in the lovely city of Tübingen.
     }
     ◊par{
-      We want to create a space where people interested in functional programming can meet and learn from each other. To achieve this, we will start off with talks, followed by food and an open exchange between the participants.
+      Tü.λ—Functional Programming Night Tübingen is a space for everyone interested in functional programming, whether you're a seasoned expert or just curious to learn. Each meetup features insightful talks, delicious food, and plenty of opportunities to connect with like-minded people.
     } 
     ◊par{
       Looking forward to see you at the next edition of ◊link["https://www.meetup.com/tu-lambda/"]{Tü.λ—Functional Programming Night Tübingen}!
@@ -172,7 +172,7 @@ This talk first gathers the prerequisites for understanding functional programmi
     }
 
     ◊par{
-      If you want to attend the meetup, please ◊link["https://www.meetup.com/tu-lambda/"]{tell us about it} so that we can plan accordingly 😊
+      If you want to attend the meetup, please ◊link["https://www.meetup.com/tu-lambda/"]{tell us about it} so that we can plan accordingly (order enough pizza!) 🙂
     }
         
     ◊heading["Contact"]
