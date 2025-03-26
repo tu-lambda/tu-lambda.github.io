@@ -5,7 +5,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-  
+
   # runs every day at 00:42 UTC
   # schedule:
   # - cron: "42 0 * * *"
@@ -39,7 +39,7 @@ jobs:
           distribution: 'full'
           variant: 'CS'
           version: '8.11'
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.cache/racket
@@ -59,4 +59,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      
