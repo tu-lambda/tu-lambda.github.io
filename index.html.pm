@@ -5,13 +5,13 @@
 ◊`(div ([class ,"flex bg-[@{raisin-black}]"])
   (div ([class "hidden my-2 md:flex flex-col items-center shrink-0 justify-around ml-6 lg:ml-12 xl:ml-36"])
     ,(badge "Locality of Behavior")
-    (a ([href "https://nixos.org"]) 
+    (a ([href "https://nixos.org"])
       (img ([src "assets/logos/nix.png"] [class "aspect-auto w-16 lg:w-24"])))
     ,(badge "Simplicity")
-    (a ([href "https://clojure.org"]) 
+    (a ([href "https://clojure.org"])
       (img ([src "assets/logos/clojure.svg"] [class "aspect-auto w-16 lg:w-24"])))
     ,(badge "Functional Optics")
-    (a ([href "https://rust-lang.org"]) 
+    (a ([href "https://rust-lang.org"])
       (img ([src "assets/logos/ferris.svg"] [class "aspect-auto w-16 lg:w-24"])))
     ,(badge "Reproducibility")
   )
@@ -46,13 +46,13 @@
   )
   (div ([class "hidden my-2 md:flex flex-col items-center shrink-0 justify-around mr-6 lg:mr-12 xl:mr-36"])
     ,(badge "Functional Data Structures")
-    (a ([href "https://www.haskell.org/"]) 
+    (a ([href "https://www.haskell.org/"])
       (img ([src "assets/logos/haskell.svg"] [class "aspect-auto w-16 lg:w-28"])))
     ,(badge "Category Theory")
-    (a ([href "https://elixir-lang.org"]) 
+    (a ([href "https://elixir-lang.org"])
       (img ([src "assets/logos/elixir.svg"] [class "aspect-auto w-16 lg:w-24"])))
     ,(badge "Distributed Systems")
-    (a ([href "https://racket-lang.org"]) 
+    (a ([href "https://racket-lang.org"])
       (img ([src "assets/logos/racket.svg"] [class "aspect-auto w-16 lg:w-24"])))
     ,(badge "Low Coupling")
   )
@@ -67,7 +67,7 @@
     }
     ◊par{
       Tü.λ—Functional Programming Night Tübingen is a space for everyone interested in functional programming, whether you're a seasoned expert or just curious to learn. Each meetup features insightful talks, delicious food, and plenty of opportunities to connect with like-minded people.
-    } 
+    }
     ◊par{
       Looking forward to see you at the next edition of ◊link["https://www.meetup.com/tu-lambda/"]{Tü.λ—Functional Programming Night Tübingen}!
     }
@@ -174,7 +174,7 @@ This talk first gathers the prerequisites for understanding functional programmi
     ◊par{
       If you want to attend the meetup, please ◊link["https://www.meetup.com/tu-lambda/"]{tell us about it} so that we can plan accordingly (order enough pizza!) 🙂
     }
-        
+
     ◊heading["Contact"]
     ◊div[#:class "pb-6"]{
       ◊par{
@@ -189,6 +189,5 @@ This talk first gathers the prerequisites for understanding functional programmi
         }
       }
     }
-  }        
+  }
 }
-
