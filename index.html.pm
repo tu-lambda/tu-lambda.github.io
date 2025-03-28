@@ -72,9 +72,30 @@
       Looking forward to see you at the next edition of ◊link["https://www.meetup.com/tu-lambda/"]{Tü.λ—Functional Programming Night Tübingen}!
     }
     ◊meetups{
+      ◊meetup[#:title "07.05.25"]{
+        ◊par{
+          The next meetup will take place on the 07.05.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{Tail Call Optimization in JavaScript} (Thomas)}
+          ◊abstract{
+          }
+          ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{Fluid Type Scales} (Beat)}
+          ◊abstract{
+            Simplifying CSS: No more breakpoints, less mental workload, less typing
+          }
+          ◊orga{Short break}
+          ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{} (◊link["https:github.com/tu-lambda/planning/issues/new?template=lightning_talk.yml"]{maybe you?})}
+          ◊abstract{
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
       ◊meetup[#:title "26.03.25"]{
         ◊par{
-          The next meetup will take place on the 26.03.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This meetup took place on the 26.03.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
@@ -96,10 +117,6 @@
               persistently in Elasticsearch and Prometheus, and provides visualizations with
               Kibana and Grafana and real-time alerting.
             }
-          }
-          ◊orga{Short break}
-          ◊p[#:class ""]{◊span[#:class "font-medium"]{Lightning Talks} (Spontaneous 👀)}
-          ◊abstract{
           }
           ◊orga{Food, talking, coding, whatever}
           ◊orga{22.00 End}
