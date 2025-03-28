@@ -19,7 +19,7 @@
 
 ; (->badges "Haskell, Nix, Racket")
 (define (->badges topics)
-  (let ([top-list (map (curry string-trim #:left? #t) 
+  (let ([top-list (map (curry string-trim #:left? #t)
   					   (string-split topics ","))])
     `(div ([class "flex flex-wrap justify-center"] [aria-label "Tools/Techniques used"])
          ,(for/splice ([topic top-list]) (badge topic)))))
@@ -59,7 +59,7 @@
       ,(if (string=? img "")
            ""
            `(img ([class "w-full"] [src ,img])))
-      (div ([class "px-6 py-4"])
+      (div ([class "px-6 py-4 w-full"])
         ,(heading title)
         ,@body)))
 
@@ -67,8 +67,8 @@
   `(div ([id "meetups"] [class "scroll-container mb-4 -mx-6 md:-mx-12 lg:-mx-24 md:gap-4 lg:gap-8 relative"])
     (div ([class "flex justify-between"])
       (button ([id "meetups-scroll-left"] [class "
-        sticky -mr-6 sm:-mr-2 md:mr-0 left-0 top-0 transform 
-        text-zinc-500 bg-gradient-to-r from-white md:bg-white h-auto  
+        sticky -mr-6 sm:-mr-2 md:mr-0 left-0 top-0 transform
+        text-zinc-500 bg-gradient-to-r from-white md:bg-white h-auto
         duration-200 ease-out transition
         z-10"])
         (svg ([xmlns "http://www.w3.org/2000/svg"] [fill "none"] [viewBox "0 0 24 24"] [stroke-width "1.5"] [stroke "currentColor"] [class "size-10"])
@@ -79,10 +79,10 @@
         ,@body
       )
       (button ([id "meetups-scroll-right"] [class "
-        sticky -ml-6 sm:-ml-2 md:ml-0 right-0 top-0 transform  
-        text-zinc-500 bg-gradient-to-l from-white sm:bg-white h-auto 
+        sticky -ml-6 sm:-ml-2 md:ml-0 right-0 top-0 transform
+        text-zinc-500 bg-gradient-to-l from-white sm:bg-white h-auto
         duration-200 ease-out transition
-        z-10"]) 
+        z-10"])
         (svg ([xmlns "http://www.w3.org/2000/svg"] [fill "none"] [viewBox "0 0 24 24"] [stroke-width "1.5"] [stroke "currentColor"] [class "size-10"])
             (path ([stroke-linecap "round"] [stroke-linejoin "round"] [d "m8.25 4.5 7.5 7.5-7.5 7.5"]))
         )
