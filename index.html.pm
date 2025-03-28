@@ -186,6 +186,182 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+      ◊meetup[#:title "18.04.23"]{
+        ◊par{
+          This meetup took place on the 18.04.23.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Mach Deine eigene Programmiersprache! – Makros in Clojure} (Kaan Sahin)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+              Fehlen Dir List-Comprehensions aus Python in Deiner Sprache? Findest Du C# toll wegen async? Benutz einfach Clojure und Makros, dann kannst Du diese Features einfach selbst schreiben!
+            }
+            ◊p[#:class "my-2"]{
+              Makros aus gängigen Programmiersprachen, wie beispielsweise Präprozessormakros in C++, werden dem Makrobegriff nicht gerecht. In Clojure sind Makros ein mächtiges Werkzeug und erlauben es, die Programmiersprache auf natürliche Art und Weise zu erweitern. Dabei sind Makros wesentlich mehr, als einfache Syntaxerweiterungen.
+            }
+            ◊p[#:class "my-2"]{
+              Wir schauen uns in diesem Vortrag Clojure und dessen Makrosystem an und zeigen Beispiele aus der Praxis.
+            }
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "17.01.23"]{
+        ◊par{
+          This meetup took place on the 17.01.23.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Komponierbare Komponenten} (Markus Schlegel)}
+          ◊abstract{
+            Mit React kam die Welt der Webentwicklung zum ersten Mal mit der funktionalen Programmierung in Kontakt und war verliebt. Doch das Versprechen simpler, nachvollziehbarer Programmlogik wird bei komplexeren Anwendungen oft nicht eingelöst. Das grundlegende Problem ist, dass wir unsere Programmstücke im Frontend zwar Komponenten nennen, uns aber die wichtigste Zutat aus der funktionalen Programmierung fehlt, um diese Benennung rechtfertigen zu können: Komposition. Dass es auch anders geht, zeigt dieser Vortrag.
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "18.03.21"]{
+        ◊par{
+          This meetup took place on the 18.03.21.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Funktionales Taktisches Design} (Michael Sperber)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+              Funktionale Programmierung passt gut zu Domain-Driven Design (DDD): Für funktionale Programmierer:innen bietet taktisches Design eine Brücke zu einer funktionierenden Applikationsarchitektur. Funktionale Programmierung hingegen vereinfacht mit ihrem Fokus auf unveränderliche Daten den Umgang mit Aggregaten.
+            }
+            ◊p[#:class "my-2"]{
+              Wo DDD sich auf konkrete Modelle nah an der Domäne konzentriert, setzt funktionale Programmierung auf Abstraktion. Während Abstraktion in der OO-Welt oft kritisch gesehen wird, kann sie - systematisch eingesetzt - Architektur und speziell Domänenmodelle signifikant verbessern: Sie findet Kombinatoren in scheinbar flachen Modellen und benutzt Algebra, um die entstehenden Strukturen zu beschreiben. Heraus kommen einfachere und flexiblere Modelle als ihre konkreten Pendants, die oft vorher unbekannte Aspekte der Domäne zutage fördern.
+            }
+            ◊p[#:class "my-2"]{
+              Der Vortrag zeigt, wie DDD um diese Techniken erweitert werden kann und wie diese zu effektiverem taktischen Design führen.
+            }
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "21.07.20"]{
+        ◊par{
+          This meetup took place on the 21.07.20.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{F#} (Andreas Weizel)}
+          ◊abstract{
+            Wir lernen F# kennen, eine funktionale Programmiersprache aus der Microsoft .NET Welt. Was zeichnet sie aus und in welchen Welten kann man damit unterwegs sein? Windows? Linux? Vielleicht sogar in der Web-Entwicklung?
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "21.04.20"]{
+        ◊par{
+          This meetup took place on the 21.04.20.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Einführung in Elm}}
+          ◊abstract{
+            Elm ist eine reine funktionale Programmiersprache mit dem Fokus sichere Webapplikationen zu schreiben.
+            Bei dem Vortrag/Workshop werden wir uns die Grundlagen der Sprache anschauen und im Anschluss auch eine kleine App bauen, die mit einem Server kommuniziert.
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "03.09.19"]{
+        ◊par{
+          This meetup took place on the 03.09.19.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Funktionale Programmierung in Kotlin} (Aleks Dimitrov)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+              Kotlin ist die neue, hippe JVM-Sprache mit sehr guter Java-Integration und vielen neuen Features. Aus Sicht der funktionalen Programmierung fehlt gegenüber Scala jedoch ein richtig ausdrucksstarkes Typensystem und der Fokus auf FP.
+              }
+            ◊p[#:class "my-2"]{
+              Wie man mit ein paar Kniffen trotzdem sehr brauchbar selbst abstrakte Konzepte wie Applicative und Monad in Kotlin benutzen kann, und welche gewohnten FP-Konstrukte dem Kotlin-Programmierer zur Verfügung stehen möchte ich in diesem Vortrag vorstellen.
+            }
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "09.07.19"]{
+        ◊par{
+          This meetup took place on the 09.07.19.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Effect Handlers} (Jona)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+              Effects are all around us: promiment examples of (control) effects include dependencies on configuration or other modules, exceptional control flow, asynchronous calls to remote APIs, nondeterminism, probabilisitic control flow and many more.
+            }
+            ◊p[#:class "my-2"]{
+              Algebraic effect handlers are a promising way to structure effectful programs in a modular way. In this talk, I present the Scala library Effekt, which makes use of both the functional and object oriented features of Scala. In particular, we follow FP best practices and make the use of effects explicit in the type of a program. We also follow OO best practices and separate the effects into interfaces, programs using the interfaces and implementations of those interfaces.
+            }
+            ◊p[#:class "my-2"]{
+              Using Scala's features of intersection types, trait/mixin-composition, implicit parameter passing and first class modules (as objects), Effekt offers interesting extensibility properties.
+            }
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "05.02.19"]{
+        ◊par{
+          This meetup took place on the 05.02.19.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Elixir & BEAM} (Ron Kirschler)}
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "13.11.18"]{
+        ◊par{
+          This meetup took place on the 13.11.18.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Monaden} (Philipp Schuster)}
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "18.09.18"]{
+        ◊par{
+          This meetup took place on the 18.09.18.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Nix(OS)} (Michael Weiss)}
+          ◊abstract{
+            Nix ist ein funktionaler Paketmanager und NixOS die darauf basierende Linux-Distribution. Bei dem Vortrag geht es hauptsächlich um die Konzepte hinter Nix(OS) um einen schnellen Überblick über die Vor- und Nachteile zu bekommen.
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "10.07.18"]{
+        ◊par{
+          This meetup took place on the 10.07.18.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Pragmatic, frameworkless functional programming in Scala} (Michał)}
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+      ◊meetup[#:title "05.06.18"]{
+        ◊par{
+          This meetup took place on the 05.06.18.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊p{◊span[#:class "font-medium"]{Die letzte Iteration der For-Schleife (in JavaScript)}}
+          ◊orga{Short break}
+          ◊p{◊span[#:class "font-medium"]{◊span[#:class "italic"]{Currying} oder ◊span[#:class "italic"]{Wie man Funktionen Geduld beibringt}}}
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
     }
 
     ◊par{
