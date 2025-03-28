@@ -174,6 +174,13 @@ This talk first gathers the prerequisites for understanding functional programmi
     ◊par{
       If you want to attend the meetup, please ◊link["https://www.meetup.com/tu-lambda/"]{tell us about it} so that we can plan accordingly (order enough pizza!) 🙂
     }
+    ◊par{
+      If you want to give a talk at one of the next meetups, please add them as an issue to this GitHub Repo ◊link["https://github.com/tu-lambda/planning/issues/new"]{here}.
+      ◊br{}
+      In case you need some inspiration, either take a look at all the previous talks on this website, or take a look at all the talks suggested so far ◊link["https://github.com/tu-lambda/planning/issues?q=is%3Aissue"]{here}.
+    }
+    ◊p{
+    }
 
     ◊heading["Contact"]
     ◊div[#:class "pb-6"]{
