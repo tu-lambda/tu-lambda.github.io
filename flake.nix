@@ -49,7 +49,7 @@
             '';
             outputHashAlgo = "sha256";
             outputHashMode = "recursive";
-            outputHash = "sha256-IqePV4oF9/XKDnn+BWIstScY7DDD4YUBkBIv1InMO0o=";
+            outputHash = "sha256-u5VXC0agH7TKL73DR7RX3+ukq1dTBt7EaJuqXtx43Ek="; # pkgs.lib.fakeHash;
           };
         };
         devshells.default = {
