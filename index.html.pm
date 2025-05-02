@@ -72,6 +72,7 @@
       Looking forward to see you at the next edition of ◊link["https://www.meetup.com/tu-lambda/"]{Tü.λ—Functional Programming Night Tübingen}!
     }
     ◊meetups{
+
       ◊meetup[#:title "07.05.25"]{
         ◊par{
           The next meetup will take place on the 07.05.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
@@ -86,6 +87,9 @@
             Simplifying CSS: No more breakpoints, less mental workload, less typing
           }
           ◊orga{Short break}
+          ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{◊link["https://tdf.cttue.de/"]{Tage der Digitalen Freiheit} | ◊link["https://cttue.de"]{Chaostreff}} (Alex)}
+          ◊abstract{
+          }
           ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{} (◊link["https:github.com/tu-lambda/planning/issues/new?template=lightning_talk.yml"]{maybe you?})}
           ◊abstract{
           }
@@ -93,6 +97,7 @@
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "26.03.25"]{
         ◊par{
           This meetup took place on the 26.03.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
@@ -108,7 +113,6 @@
               indicate production problems, and correlating the data with the resulting
               product is essential for a successful and efficient production.
             }
-
             ◊p[#:class "my-2"]{
               We show how we have built a large-scale logging and monitoring solution of a
               large and heterogenous legacy enterprise IT infrastructure that controls
@@ -122,6 +126,7 @@
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "15.01.25"]{
         ◊par{
           This meetup took place on the 15.01.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
@@ -141,6 +146,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "06.11.24"]{
         ◊par{
           This meetup took place on the 06.11.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
@@ -149,7 +155,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{18:45 Doors open & Welcome}
           ◊p[#:class ""]{◊link["https://marvinborner.github.io/tuela24/1"]{◊span[#:class "font-medium"]{Really Functional Data Structures}} (Marvin)}
           ◊abstract{
-			      Last time, David showed us functional data structures in the form of persistent data structures. In this talk, I want to show you data structures that are defined entirely by functions themselves - no classes, structs, bitmaps, etc.! Knowing about such structures not only tickles the brain, but can also lead to a better intuition for solving problems functionally. Furthermore, one of the data structures shown can be used for space-efficient encodings of fractals and fun animations.
+            Last time, David showed us functional data structures in the form of persistent data structures. In this talk, I want to show you data structures that are defined entirely by functions themselves - no classes, structs, bitmaps, etc.! Knowing about such structures not only tickles the brain, but can also lead to a better intuition for solving problems functionally. Furthermore, one of the data structures shown can be used for space-efficient encodings of fractals and fun animations.
           }
           ◊orga{Short break}
           ◊p[#:class ""]{◊link["assets/slides/2024-11-06_markus-schlegel-decoupled-by-default.pdf"]{◊span[#:class "font-medium"]{Decoupled by Default – Funktionale Programmierung in der Softwarearchitektur}} (Markus)}
@@ -167,6 +173,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "28.08.24"]{
         ◊par{
           This meetup took place on the 28.08.24 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
@@ -186,6 +193,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "18.04.23"]{
         ◊par{
           This meetup took place on the 18.04.23.
@@ -207,6 +215,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "17.01.23"]{
         ◊par{
           This meetup took place on the 17.01.23.
@@ -220,6 +229,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "18.03.21"]{
         ◊par{
           This meetup took place on the 18.03.21.
@@ -241,6 +251,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "21.07.20"]{
         ◊par{
           This meetup took place on the 21.07.20.
@@ -254,6 +265,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "21.04.20"]{
         ◊par{
           This meetup took place on the 21.04.20.
@@ -268,6 +280,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "03.09.19"]{
         ◊par{
           This meetup took place on the 03.09.19.
@@ -286,6 +299,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "09.07.19"]{
         ◊par{
           This meetup took place on the 09.07.19.
@@ -307,6 +321,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "05.02.19"]{
         ◊par{
           This meetup took place on the 05.02.19.
@@ -317,6 +332,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "13.11.18"]{
         ◊par{
           This meetup took place on the 13.11.18.
@@ -327,6 +343,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "18.09.18"]{
         ◊par{
           This meetup took place on the 18.09.18.
@@ -340,6 +357,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "10.07.18"]{
         ◊par{
           This meetup took place on the 10.07.18.
@@ -350,6 +368,7 @@ This talk first gathers the prerequisites for understanding functional programmi
           ◊orga{22.00 End}
         }
       }
+
       ◊meetup[#:title "05.06.18"]{
         ◊par{
           This meetup took place on the 05.06.18.
