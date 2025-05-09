@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const leftmostElemIsShown = () => {
       let { clientWidth, scrollLeft, scrollWidth } = meetupContainer
       scrollLeft = Math.abs(scrollLeft)
-      errorMargin = scrollWidth * 0.1
+      errorMargin = scrollWidth * 0.01
 
       res = (scrollLeft > scrollWidth - clientWidth - errorMargin)
       return res
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const rightmostElemIsShown = () => {
       let { scrollLeft, scrollWidth } = meetupContainer
       scrollLeft = Math.abs(scrollLeft)
-      errorMargin = scrollWidth * 0.1
+      errorMargin = scrollWidth * 0.01
 
       res = (scrollLeft < errorMargin)
       return res
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         activate(scrollLeftBtn)
       }
-      
+
       // Check if the container is scrolled to the right
       if (rightmostElemIsShown()) {
         deactivate(scrollRightBtn)
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Also update on window resize in case the container size changes
     window.addEventListener('resize', updateButtonVisibility);
-    
+
   } else {
     console.error('One or more required elements are missing from the DOM');
   }
