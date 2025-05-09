@@ -73,24 +73,39 @@
     }
     ◊meetups{
 
+      ◊meetup[#:title "18.06.25"]{
+        ◊par{
+          The next meetup will take place on the 18.06.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Reader-Writer-State} (Ingo)}
+          ◊abstract{
+            When do we want to return stuff?
+            What context do we have?
+            Can we do all of this thinking before writing our code and save a bunch of brain power?
+            Let's find out.
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+
       ◊meetup[#:title "07.05.25"]{
         ◊par{
-          The next meetup will take place on the 07.05.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This meetup took place on the 07.05.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
           ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{Tail Call Optimization in JavaScript} (Thomas)}
           ◊abstract{
           }
-          ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{Fluid Type Scales} (Beat)}
+          ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{◊link["https://haglobah.github.io/talks/2025-05-07-fluid-type-scales/"]{Fluid Type Scales}} (Beat)}
           ◊abstract{
             Simplifying CSS: No more breakpoints, less mental workload, less typing
           }
           ◊orga{Short break}
           ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{◊link["https://tdf.cttue.de/"]{Tage der Digitalen Freiheit} | ◊link["https://cttue.de"]{Chaostreff}} (Alex)}
-          ◊abstract{
-          }
-          ◊p[#:class ""]{Lightning Talk: ◊span[#:class "font-medium"]{} (◊link["https:github.com/tu-lambda/planning/issues/new?template=lightning_talk.yml"]{maybe you?})}
           ◊abstract{
           }
           ◊orga{Food, talking, coding, whatever}
