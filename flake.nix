@@ -1,6 +1,10 @@
 {
   description = "A project with a devshell.";
 
+  nixConfig = {
+    sandbox = false;
+  };
+
   inputs = {
     nixpkgs.url = "https://flakehub.com/f/DeterminateSystems/nixpkgs-weekly/*.tar.gz";
     devshell.url = "github:numtide/devshell";
@@ -47,9 +51,6 @@
               mkdir $out
               cp -r assets *.html *.css *.js $out
             '';
-            outputHashAlgo = "sha256";
-            outputHashMode = "recursive";
-            outputHash = "sha256-u5VXC0agH7TKL73DR7RX3+ukq1dTBt7EaJuqXtx43Ek="; # pkgs.lib.fakeHash;
           };
         };
         devshells.default = {
