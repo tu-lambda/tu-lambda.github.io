@@ -35,7 +35,7 @@ jobs:
         uses: cachix/install-nix-action@v27
 
       - name: Build site
-        run: nix build
+        run: nix build . -Lv --no-sandbox
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
