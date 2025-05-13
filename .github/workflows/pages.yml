@@ -26,36 +26,26 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   build:
-    name: Building and Deploying
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@master
-      - uses: Bogdanp/setup-racket@v1.11
-        with:
-          architecture: 'x64'
-          distribution: 'full'
-          variant: 'CS'
-          version: '8.11'
-      - uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/racket
-            ~/.local/share/racket
-          key: ${{ runner.os }}-racket-current-${{ hashFiles('.racket-version') }}
-      - run: raco pkg install --auto --skip-installed pollen string-interpolation
-      - run: mkdir output
-      - run: raco pollen render
-      - run: cp -r assets *.html *.css *.js output
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Nix
+        uses: cachix/install-nix-action@v27
+
+      - name: Build site
+        run: nix build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload ./output only
-          path: './output'
+          path: result
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
