@@ -40,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: result  # Ensure this is the correct output directory
+          path: result
 
   deploy:
     needs: build
