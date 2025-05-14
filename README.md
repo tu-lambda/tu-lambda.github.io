@@ -5,7 +5,7 @@ Written in [Racket](https://racket-lang.org) and [Pollen](https://pollenpub.com)
 
 In case you're looking for a place to contribute a talk/lightning talk, take a look here: https://github.com/tu-lambda/planning/issues/new
 
-## Local Development Setup
+## Development
 
 ### 1) Nix
 
@@ -15,16 +15,13 @@ The easiest way to get started with local development is to [use Nix](https://ze
 ```shell
 curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 ```
-2. Fork this repo
-3. Enter the nix development environment (from inside the repo):
+2. Fork this repo, and then `git clone` your fork
+3. Run the development environment:
 ```shell
-cd functional-coders.github.io && nix develop
+cd functional-coders.github.io
+nix run
 ```
-4. Run the project server
-```shell
-raco pollen start
-```
-5. edit files, reload the browser window, see the changes
+4. edit files, reload the browser window, see the changes
 
 ### 2) 'Normal' install
 
