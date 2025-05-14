@@ -1,7 +1,7 @@
 ◊(require string-interpolation)
 
 ◊(define title "Tü.λ—Functional Programming Night Tübingen")
-◊(define description "What if... we just take the best parts of programming and see where this leads us?")
+◊(define description "What if... we just take the best parts of programming and see where that leads us?")
 ◊(define image-path "")
 ◊(define url "https://tu-lambda.github.io/")
 ◊(define icon-path "")
@@ -34,7 +34,7 @@
 	<meta name="description" content="◊|description|" >
 	<link rel="icon" type="image/x-icon" href="◊|icon-path|">
 
-	<link rel="stylesheet" href="fonts.css"> 
+	<link rel="stylesheet" href="fonts.css">
 	<script src="https://cdn.tailwindcss.com"></script>
 	<script src="main.js"></script>
   </head>
