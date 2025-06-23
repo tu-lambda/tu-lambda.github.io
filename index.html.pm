@@ -73,9 +73,22 @@
     }
     ◊meetups{
 
+      ◊meetup[#:title "27.08.25"]{
+        ◊par{
+          The next meetup will take place on the 27.08.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Recursion Schemes: Ana, Cata, Para, What?} (Marvin)}
+          ◊abstract{}
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+
       ◊meetup[#:title "18.06.25"]{
         ◊par{
-          The next meetup will take place on the 18.06.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          The meetup took place on the 18.06.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
