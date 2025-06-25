@@ -80,7 +80,9 @@
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
           ◊p[#:class ""]{◊span[#:class "font-medium"]{Recursion Schemes: Ana, Cata, Para, What?} (Marvin)}
-          ◊abstract{}
+          ◊abstract{
+            Emerging from the depths of category theory, recursion schemes offer an elegant and efficient way to traverse recursive data structures. But how can they be used in practice? What are the differences between a catamorphism and a paramorphism? And how exactly does a futumorphism enable time travel??
+          }
           ◊orga{Food, talking, coding, whatever}
           ◊orga{22.00 End}
         }
