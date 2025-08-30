@@ -73,9 +73,39 @@
     }
     ◊meetups{
 
+      ◊meetup[#:title "29.10.25"]{
+        ◊par{
+          The next meetup will take place on the 29.10.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{On Closures and Objects} (Beat)}
+          ◊abstract{
+            ◊a[#:href "https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent" #:class "block cursor-pointer transition-all ease-in-out duration-200 hover:text-[@{jordy}]/80 border-l-4 pl-4 border-[@{jordy}]/60"]{
+              ◊p[#:class "my-2"]{
+                The venerable master Qc Na was walking with his student, Anton. Hoping to prompt the master into a discussion, Anton said "Master, I have heard that objects are a very good thing - is this true?" Qc Na looked pityingly at his student and replied, "Foolish pupil - objects are merely a poor man's closures."
+              }
+
+              ◊p[#:class "my-2"]{
+                ...}
+              }
+            ◊p[#:class "my-2"]{
+              There's many things that enable a functional style in a program, but only one that's ◊span[#:class "italic"]{really} needed: Closures. ◊br{}
+              It's shame that still not all languages have them—but lucklily, we can just write our own using Objects.
+            }
+            ◊p[#:class "my-2"]{
+              Same for Objects: When you really want to have a thing you can send messages to and that closes over some local state, Objects are actually a good abstraction and tool to be had in your toolkit.
+              Not all languages have them, some decidedly on purpose—but you make your own, too.
+            }
+          }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+
       ◊meetup[#:title "27.08.25"]{
         ◊par{
-          The next meetup will take place on the 27.08.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This meetup took place on the 27.08.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
