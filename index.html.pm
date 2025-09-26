@@ -91,7 +91,7 @@
               }
             ◊p[#:class "my-2"]{
               There's many things that enable a functional style in a program, but only one that's ◊span[#:class "italic"]{really} needed: Closures. ◊br{}
-              It's shame that still not all languages have them—but lucklily, we can just write our own using Objects.
+              It's a shame that still not all languages have them—but lucklily, we can just write our own using Objects.
             }
             ◊p[#:class "my-2"]{
               Same for Objects: When you really want to have a thing you can send messages to and that closes over some local state, Objects are actually a good abstraction and tool to be had in your toolkit.
