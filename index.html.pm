@@ -98,7 +98,23 @@
               Not all languages have them, some decidedly on purpose—but you make your own, too.
             }
           }
-          ◊orga{Food, talking, coding, whatever}
+          ◊orga{Food, talking, coding, and:}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{NixOS Install Party} (Michael, Beat)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+              Bring your laptop, and we will install NixOS (dual-boot is fine, too :)) on it together.
+            }
+            ◊p[#:class "my-2"]{
+              After this session, you should:
+              ◊ul[#:class "list-inside list-disc"]{
+                ◊li{Have a working NixOS install}
+                ◊li{Know how to install new packages}
+                ◊li{Know how to update your packages}
+                ◊li{Know how rebuild your OS}
+                ◊li{Know where to look when things go awry}
+              }
+            }
+          }
           ◊orga{22.00 End}
         }
       }
