@@ -35,8 +35,10 @@
   (string-replace (string-downcase text) " " "-"))
 
 (define (heading text)
-  `(h1 ([id ,(id-ify text)] [class ,"text-3xl font-fira-code text-[@{jordy}] tracking-tighter leading-snug"])
-       ,text))
+  `(a ((href ,(id-ify (string-append "#" text)))
+       (class "cursor-pointer"))
+      (h1 ([id ,(id-ify text)] [class ,"text-3xl font-fira-code text-[@{jordy}] tracking-tighter leading-snug"])
+                                 ,text)))
 
 (define (orga . body)
   `(div ([class "flex items-center gap-2 -mx-2 my-4"])
