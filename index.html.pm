@@ -95,7 +95,7 @@
             }
             ◊p[#:class "my-2"]{
               Same for Objects: When you really want to have a thing you can send messages to and that closes over some local state, Objects are actually a good abstraction and tool to be had in your toolkit.
-              Not all languages have them, some decidedly on purpose—but you make your own, too.
+              Not all languages have them, some decidedly on purpose—but you can make your own, too.
             }
           }
           ◊orga{Food, talking, coding, and:}
