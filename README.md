@@ -16,7 +16,7 @@ The easiest way to get started with local development is to [use Nix](https://ze
 curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 ```
 2. Fork this repo, and then `git clone` your fork
-3. Run the development environment:
+3. Run the development server:
 ```shell
 cd functional-coders.github.io
 nix run
