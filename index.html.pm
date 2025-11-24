@@ -128,7 +128,7 @@ Neat tricks welcome :)
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
-          ◊p[#:class ""]{◊span[#:class "font-medium"]{On Closures and Objects} (Beat)}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{◊link["https://haglobah.github.io/talks/objects-and-closures/"]{On Closures and Objects}} (Beat)}
           ◊abstract{
             ◊a[#:href "https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent" #:class "block cursor-pointer transition-all ease-in-out duration-200 hover:text-[@{jordy}]/80 border-l-4 pl-4 border-[@{jordy}]/60"]{
               ◊p[#:class "my-2"]{
