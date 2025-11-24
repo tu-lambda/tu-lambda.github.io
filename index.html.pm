@@ -73,9 +73,58 @@
     }
     ◊meetups{
 
-      ◊meetup[#:title "29.10.25"]{
+      ◊meetup[#:title "03.12.25"]{
         ◊par{
           The next meetup will take place on the 29.10.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{What the Guix!?} (Bost, Alex)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+              Hey you!
+            }
+            ◊p[#:class "my-2"]{
+              Psst, are you a developer or an IT person? Do you use multiple computers with many packages and move between them back and forth?
+            }
+            ◊p[#:class "my-2"]{
+              We feel your pain and may have some remedy for it.
+              You don't have to sell your soul to get out of dependency hell, BTW ;-)
+            }
+            ◊p[#:class "my-2"]{
+              We will show you how to embrace the Functional Programming Model even at the operating system level!
+              Eelco Dolstra explored these ideas in his PhD thesis in 2006, also introducing NixOS.
+            }
+            ◊p[#:class "my-2"]{
+              Today we focus on GNU Guix, forked from NixOS in 2012 by Ludovic Courtès.
+              GNU Guix is a stand-alone operating system and a package manager also available for other Linux distributions.
+              For crafting the system, Guix uses Guile Scheme - a proper programming language with clean design.
+            }
+            ◊p[#:class "mt-8"]{
+            ◊ul[#:class "list-inside list-disc"]{
+              ◊li{Alex gives you an introduction to the concepts and the system's architecture.}
+              ◊li{Bost shows you the good and the not-so-good parts: how he uses Guix and how you could use it as well.}
+}
+            }
+
+          }
+          ◊orga{Food, talking, coding, and:}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Open Stage: Workflow, Use-Cases, and Tips and Tricks for Guix (and NixOS)} (Alex)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+How are using your declarative, functional package manager? Show us your workflow or solution for your use-case!
+            }
+            ◊p[#:class "my-2"]{
+Neat tricks welcome :)
+            }
+          }
+          ◊orga{22.00 End}
+        }
+      }
+
+      ◊meetup[#:title "29.10.25"]{
+        ◊par{
+          The this meetup took place on the 29.10.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
