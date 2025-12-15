@@ -73,6 +73,49 @@
     }
     ◊meetups{
 
+      ◊meetup[#:title "28.01.26"]{
+        ◊par{
+          The next meetup will take place on the 28.01.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Introduction to Property-Based Testing} (Stefan)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+              How can we test our software, find bugs and make sure that it works as intended -- without time-consumingly hand-crafting example-based tests, which are still likely to miss important cases?
+            }
+            ◊p[#:class "my-2"]{
+              Originating from Haskell's QuickCheck and the world of functional programming, *property-based testing* is one interesting approach to this problem:
+            }
+            ◊p[#:class "my-2"]{
+              instead of writing individual tests, inputs are automatically generated and the implementation is verified by checking expected relationships between inputs and outputs (*properties*).
+            }
+            ◊p[#:class "my-2"]{
+              This introduction will cover the basics:
+            }
+            ◊p[#:class "my-2"]{
+              Starting from testing purely functional code, we'll discuss strategies for expressing properties without actually knowing the correct solution beforehand and without having to duplicate implementation logic.
+            }
+            ◊p[#:class "my-2"]{
+              This will be most useful during development.
+            }
+            ◊p[#:class "my-2"]{
+              From there on, we'll also take a look into model-based/stateful property tests, which can be used when you are not in full control of the system-under-test, e.g. for testing non-functional stateful code/interfaces and already-existing real-world systems.
+            }
+            ◊p[#:class "my-2"]{
+              Afterwards I'd like to hear from *YOU*:
+              ◊ul[#:class "list-inside list-disc"]{
+                ◊li{When did you use property testing?}
+                ◊li{What was a surprising or interesting property that helped you specify system behavior?}
+                ◊li{Can you share further strategies for expressing properties?}
+              }
+            }
+		  }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+
       ◊meetup[#:title "03.12.25"]{
         ◊par{
           The next meetup will take place on the 29.10.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
