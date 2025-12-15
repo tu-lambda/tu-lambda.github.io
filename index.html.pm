@@ -118,7 +118,7 @@
 
       ◊meetup[#:title "03.12.25"]{
         ◊par{
-          The next meetup will take place on the 29.10.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This meetup took place on the 29.10.25 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
