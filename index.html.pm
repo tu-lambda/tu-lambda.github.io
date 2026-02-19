@@ -73,9 +73,26 @@
     }
     ◊meetups{
 
+      ◊meetup[#:title "11.03.26"]{
+        ◊par{
+          The next meetup will take place on the 11.03.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{Git meets Linked Data – A Tale of an Unusual Architecture} (Markus)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+		      In 2025 we wrote a software system supporting an EU funded research project. What started as a run-of-the-mill client-server-database architecture grew into an unusual combination of technologies: We use Linked Data and the Resource Description Framework (RDF) in the form of Apache Jena as the data model and git – yes, the source code management tool – as our storage system. These technological choices weren’t rooted in a desire for novelty. They were derived as straightforward consequences from our requirements. Thanks to functional software architecture principles such as simple, and precise specifications based on pure functions, what could have become a hard to maintain Frankensteinian mess has actually evolved into reasonable, maintainable, and well-performant software.
+            }
+		  }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+
       ◊meetup[#:title "28.01.26"]{
         ◊par{
-          The next meetup will take place on the 28.01.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This meetup took take place on the 28.01.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
