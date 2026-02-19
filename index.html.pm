@@ -96,7 +96,7 @@
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
-          ◊p[#:class ""]{◊span[#:class "font-medium"]{Introduction to Property-Based Testing} (Stefan)}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{◊link["https://github.com/stfnw/talk-introduction-to-property-based-testing"]{Introduction to Property-Based Testing}} (Stefan)}
           ◊abstract{
             ◊p[#:class "my-2"]{
               How can we test our software, find bugs and make sure that it works as intended -- without time-consumingly hand-crafting example-based tests, which are still likely to miss important cases?
