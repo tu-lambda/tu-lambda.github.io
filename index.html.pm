@@ -63,7 +63,7 @@
     ◊heading["About"]
     ◊par{Hi 👋}
     ◊par{
-      We're ◊link["https://www.linkedin.com/in/dirk-hüsken-414b8b101"]{Dirk}, ◊link["https://www.linkedin.com/in/thomas-graf-253629ba"]{Thomas} and ◊link["https://me.beathagenlocher.com"]{Beat} and we're excited to connect and grow the functional programming community in the lovely city of Tübingen.
+      We're ◊link["https://www.linkedin.com/in/dirk-hüsken-414b8b101"]{Dirk}, ◊link["https://www.linkedin.com/in/thomas-graf-253629ba"]{Thomas}, ◊link["https://marvinborner.de/"]{Marvin} and ◊link["https://me.beathagenlocher.com"]{Beat} and we're excited to connect and grow the functional programming community in the lovely city of Tübingen.
     }
     ◊par{
       Tü.λ—Functional Programming Night Tübingen is a space for everyone interested in functional programming, whether you're a seasoned expert or just curious to learn. Each meetup features insightful talks, delicious food, and plenty of opportunities to connect with like-minded people.
