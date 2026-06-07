@@ -73,9 +73,9 @@
     }
     ◊meetups{
 
-      ◊meetup[#:title "07.06.26"]{
+      ◊meetup[#:title "16.06.26"]{
         ◊par{
-          The next meetup will take place on the 07.06.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          The next meetup will take place on the 16.06.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
