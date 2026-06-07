@@ -73,9 +73,44 @@
     }
     ◊meetups{
 
+      ◊meetup[#:title "07.06.26"]{
+        ◊par{
+          The next meetup will take place on the 07.06.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+        }
+        ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
+          ◊orga{18:45 Doors open & Welcome}
+          ◊p[#:class ""]{◊span[#:class "font-medium"]{A Tour of Polarity} (Tim)}
+          ◊abstract{
+            ◊p[#:class "my-2"]{
+              There is a fundamental difference between how we structure programs in object-oriented and functional programming.
+              In object-oriented programming, we model our domain using interfaces and classes, with methods defining the behavior of objects.
+              In functional programming, we model our domain using algebraic data types and define their behavior through functions that pattern match on them.
+              This design choice directly affects the extensibility of a program:
+              adding new data variants is easy in the object-oriented style, while adding new operations is easy in the functional style.
+              This trade-off is known as the expression problem.
+            }
+              
+            ◊p[#:class "my-2"]{
+              Modern programming languages are typically multi-paradigm, combining features from both traditions.
+              However, they rarely support both styles equally well.
+              Which representation to prefer is therefore not only a question of the problem domain, but also a question of language support.
+              Can we get the best of both worlds?
+            }
+              
+            ◊p[#:class "my-2"]{
+              In this talk, we will study this question through the lens of Polarity, a research programming language with symmetric support for both functional and object-oriented program decomposition.
+              Because Polarity is dependently typed, we can also use its type system to statically ensure important properties of our programs.
+              We will consider how the choice of programming style affects not only extensibility, but also the way such properties are stated and verified.
+            }
+		  }
+          ◊orga{Food, talking, coding, whatever}
+          ◊orga{22.00 End}
+        }
+      }
+
       ◊meetup[#:title "11.03.26"]{
         ◊par{
-          The next meetup will take place on the 11.03.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This meetup took place on the 11.03.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
@@ -92,7 +127,7 @@
 
       ◊meetup[#:title "28.01.26"]{
         ◊par{
-          This meetup took take place on the 28.01.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
+          This meetup took place on the 28.01.26 at the ◊link["https://itdesign.de/"]{itdesign office}, Friedrichstraße 12.
         }
         ◊div[#:class "mx-2 my-4 sm:text-lg leading-relaxed"]{
           ◊orga{18:45 Doors open & Welcome}
